@@ -8,11 +8,13 @@ interface PartnersSubMenuProps {
   onMouseEnter: () => void;
   onMouseLeave: () => void;
   lang: string;
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
+  dict: Record<string, any>;
 }
 
 const countries = [
   {
-    name: "France",
+    key: "france",
     partners: [
       { name: "Bretagne", slug: "bretagne" },
       { name: "Rennes", slug: "rennes" },
@@ -23,7 +25,7 @@ const countries = [
     ],
   },
   {
-    name: "Portugal",
+    key: "portugal",
     partners: [
       { name: "Vimioso", slug: "vimioso" },
       { name: "Miranda do Douro", slug: "miranda-do-douro" },
@@ -31,35 +33,45 @@ const countries = [
     ],
   },
   {
-    name: "Italy",
+    key: "italy",
     partners: [
       { name: "Prato", slug: "prato" },
     ],
   },
   {
-    name: "Romania",
+    key: "romania",
     partners: [
       { name: "Iași", slug: "iasi" },
       { name: "Sibiu", slug: "sibiu" },
     ],
   },
   {
-    name: "Spain",
+    key: "spain",
     partners: [
       { name: "Ribadavia", slug: "ribadavia" },
     ],
   },
 ];
 
+const fallbackCountryNames: Record<string, string> = {
+  france: "France",
+  portugal: "Portugal",
+  italy: "Italy",
+  romania: "Romania",
+  spain: "Spain",
+};
+
 export default function PartnersSubMenu({
   isOpen,
   onMouseEnter,
   onMouseLeave,
   lang,
+  dict,
 }: PartnersSubMenuProps) {
+  const countryDict = dict?.header?.country ?? {};
   return (
     <div
-      className={`hidden min-[1450px]:block fixed left-0 w-full z-50 transition-all duration-300 ${
+      className={`hidden min-[1450px]:block fixed top-[60px] left-0 w-full z-50 transition-all duration-300 ${
         isOpen
           ? "opacity-100 translate-y-0 pointer-events-auto"
           : "opacity-0 -translate-y-2 pointer-events-none"
@@ -79,9 +91,9 @@ export default function PartnersSubMenu({
         <nav className="border-2 border-theme rounded-2xl shadow-md bg-surface p-5 mt-3">
           <div className="grid grid-cols-5 gap-6">
             {countries.map((country) => (
-              <div key={country.name}>
+              <div key={country.key}>
                 <h3 className="text-base text-theme font-bold mb-3">
-                  {country.name}
+                  {countryDict[country.key] ?? fallbackCountryNames[country.key]}
                 </h3>
                 <ul className="space-y-2">
                   {country.partners.map((partner) => (

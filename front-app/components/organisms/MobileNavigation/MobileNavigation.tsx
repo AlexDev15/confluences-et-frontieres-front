@@ -22,7 +22,7 @@ export default function MobileNavigation({
 }: MobileNavigationProps) {
   const { setTheme } = useTheme();
 
-  const nav = dict?.nav ?? {};
+  const nav = dict?.header ?? {};
 
   function closeMenu() {
     setMenuState(false);
@@ -33,7 +33,7 @@ export default function MobileNavigation({
       <button
         type="button"
         onClick={() => setMenuState(!isMenuOpen)}
-        aria-label={isMenuOpen ? (nav.closeMenu ?? "Close menu") : (nav.openMenu ?? "Open menu")}
+        aria-label={isMenuOpen ? (dict?.accessibility?.closeMenu ?? "Close menu") : (dict?.accessibility?.openMenu ?? "Open menu")}
         aria-expanded={isMenuOpen}
         className="absolute top-1/2 right-2.5 -translate-y-1/2 text-theme w-[30px] h-[30px] focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-theme"
       >
@@ -45,11 +45,9 @@ export default function MobileNavigation({
       </button>
 
       <nav
-        aria-label={nav.mobileNavigation ?? "Mobile navigation"}
+        aria-label="Mobile navigation"
         className={[
-          "absolute top-[85px] right-0 min-w-[300px] h-[calc(100dvh-85px)]",
-          "tablet:top-[60px] tablet:h-[calc(100dvh-60px)]",
-          "phone:top-[60px] phone:h-[calc(100dvh-60px)]",
+          "absolute top-[60px] right-0 min-w-[300px] h-[calc(100dvh-60px)]",
           "border-l-[5px] border-theme bg-surface",
           "flex flex-col items-center gap-6 p-8",
           "transition-transform duration-300",
@@ -61,7 +59,7 @@ export default function MobileNavigation({
           onClick={closeMenu}
           className="focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-theme"
         >
-          <Button text={nav.home ?? "Home"} variant="underlinePrimary" />
+          <Button text={(nav.home ?? "Home").toUpperCase()} variant="underlinePrimary" className="font-bold" />
         </Link>
 
         <Link
@@ -69,7 +67,7 @@ export default function MobileNavigation({
           onClick={closeMenu}
           className="focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-theme"
         >
-          <Button text={nav.partners ?? "Partners"} variant="underlinePrimary" />
+          <Button text={(nav.partners ?? "Partners").toUpperCase()} variant="underlinePrimary" className="font-bold" />
         </Link>
 
         <Link
@@ -77,7 +75,7 @@ export default function MobileNavigation({
           onClick={closeMenu}
           className="focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-theme"
         >
-          <Button text={nav.project ?? "Project"} variant="underlinePrimary" />
+          <Button text={(nav.project ?? "Project").toUpperCase()} variant="underlinePrimary" className="font-bold" />
         </Link>
 
         <Link
@@ -88,7 +86,7 @@ export default function MobileNavigation({
           }}
           className="focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-theme"
         >
-          <Button text={nav.events ?? "Events"} variant="underlinePrimary" />
+          <Button text={(nav.events ?? "Events").toUpperCase()} variant="underlinePrimary" className="font-bold" />
         </Link>
 
         <Link
@@ -100,9 +98,18 @@ export default function MobileNavigation({
           className="focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-theme"
         >
           <Button
-            text={nav.productions ?? "Productions"}
+            text={(nav.productions ?? "Productions").toUpperCase()}
             variant="underlinePrimary"
+            className="font-bold"
           />
+        </Link>
+
+        <Link
+          href={`/${lang}/contacts`}
+          onClick={closeMenu}
+          className="focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-theme"
+        >
+          <Button text={(nav.contact ?? "Contact").toUpperCase()} variant="underlinePrimary" className="font-bold" />
         </Link>
 
         <div className="mt-auto pb-8">

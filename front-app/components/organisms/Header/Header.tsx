@@ -34,45 +34,48 @@ export default function Header({ lang, dict }: HeaderProps) {
   }, []);
 
   return (
-    <header
-      ref={headerRef}
-      className="fixed top-0 left-0 w-full h-[85px] tablet:h-[60px] phone:h-[60px] z-20 bg-surface border-b-[5px] border-theme flex items-center justify-between px-2.5"
-      role="banner"
-    >
-      <Link
-        href={`/${lang}`}
-        aria-label={dict?.nav?.home ?? "Home"}
-        className="focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-theme"
+    <>
+      <header
+        ref={headerRef}
+        className="fixed top-0 left-0 w-full h-[60px] z-20 bg-surface border-b-[5px] border-theme flex items-center justify-between py-8 px-6"
+        role="banner"
       >
-        <Image
-          src="/C&F_Logo.gif"
-          alt="Confluences et Frontières"
-          width={200}
-          height={100}
-          unoptimized
-          className="h-full w-auto max-h-[75px] tablet:max-h-[50px] phone:max-h-[50px] object-contain"
+        <Link
+          href={`/${lang}`}
+          aria-label={dict?.header?.home ?? "Home"}
+          className="focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-theme"
+        >
+          <Image
+            src="/C&F_Logo.gif"
+            alt="Confluences et Frontières"
+            width={200}
+            height={100}
+            unoptimized
+            className="h-full w-auto max-h-[50px] object-contain"
+          />
+        </Link>
+
+        <MainNavigation
+          togglePartnersMenu={setIsPartnersMenuOpen}
+          lang={lang}
+          dict={dict}
         />
-      </Link>
 
-      <MainNavigation
-        togglePartnersMenu={setIsPartnersMenuOpen}
-        lang={lang}
-        dict={dict}
-      />
-
-      <MobileNavigation
-        isMenuOpen={isMobileMenuOpen}
-        setMenuState={setIsMobileMenuOpen}
-        lang={lang}
-        dict={dict}
-      />
+        <MobileNavigation
+          isMenuOpen={isMobileMenuOpen}
+          setMenuState={setIsMobileMenuOpen}
+          lang={lang}
+          dict={dict}
+        />
+      </header>
 
       <PartnersSubMenu
         isOpen={isPartnersMenuOpen}
         onMouseEnter={() => setIsPartnersMenuOpen(true)}
         onMouseLeave={() => setIsPartnersMenuOpen(false)}
         lang={lang}
+        dict={dict}
       />
-    </header>
+    </>
   );
 }

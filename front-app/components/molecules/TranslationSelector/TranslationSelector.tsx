@@ -47,14 +47,14 @@ export default function TranslationSelector({
     router.push(newPath);
   }
 
-  const dropdownPosition = placement === "top" ? "bottom-full mb-1" : "top-full mt-1";
+  const dropdownPosition = placement === "top" ? "bottom-full mb-2" : "top-full mt-2";
 
   return (
     <div ref={containerRef} className="relative inline-block">
       <button
         type="button"
         onClick={() => setIsOpen((prev) => !prev)}
-        className="flex items-center gap-2 px-3 py-2 border-2 border-theme rounded-lg bg-surface text-theme focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-theme"
+        className="flex items-center gap-2.5 w-[240px] h-[50px] px-3 border-2 border-theme bg-surface text-theme font-bold tracking-wide cursor-pointer focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-theme"
         aria-expanded={isOpen}
         aria-haspopup="listbox"
         aria-label={`Language: ${currentLang.name}`}
@@ -64,42 +64,44 @@ export default function TranslationSelector({
           alt=""
           width={25}
           height={25}
-          className="rounded-sm"
         />
-        <span className="text-xs">{currentLang.name}</span>
+        <span className="flex-1 text-sm">{currentLang.name.toUpperCase()}</span>
         <ChevronDown
-          size={16}
-          className={`transition-transform ${isOpen ? "rotate-180" : ""}`}
+          size={18}
+          className={`transition-transform duration-200 ${isOpen ? "rotate-180" : ""} ${placement === "top" ? "rotate-180" : ""}`}
           aria-hidden="true"
         />
       </button>
 
-      {isOpen && (
-        <ul
-          role="listbox"
-          aria-label="Select language"
-          className={`absolute ${dropdownPosition} left-0 z-50 min-w-full border-2 border-theme bg-surface rounded-lg overflow-hidden shadow-md`}
-        >
-          {languages.map((language) => (
-            <li key={language.code} role="option" aria-selected={language.code === lang}>
-              <button
-                type="button"
-                onClick={() => handleSelect(language.code)}
-                className="flex items-center gap-2 w-full px-3 py-2 text-theme hover:bg-theme hover:text-on-primary transition-colors focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-theme"
-              >
-                <Image
-                  src={language.flag}
-                  alt=""
-                  width={25}
-                  height={25}
-                  className="rounded-sm"
-                />
-                <span className="text-xs">{language.name}</span>
-              </button>
-            </li>
-          ))}
-        </ul>
-      )}
+      <ul
+        role="listbox"
+        aria-label="Select language"
+        className={[
+          `absolute ${dropdownPosition} left-0 z-50 w-[240px] border-2 border-theme bg-surface overflow-hidden`,
+          "transition-all duration-200",
+          isOpen
+            ? "opacity-100 translate-y-0 pointer-events-auto"
+            : "opacity-0 -translate-y-2 pointer-events-none",
+        ].join(" ")}
+      >
+        {languages.map((language) => (
+          <li key={language.code} role="option" aria-selected={language.code === lang}>
+            <button
+              type="button"
+              onClick={() => handleSelect(language.code)}
+              className="flex items-center gap-2.5 w-full h-[50px] px-3 text-theme font-bold tracking-wide cursor-pointer hover:bg-theme hover:text-on-primary transition-colors focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-theme"
+            >
+              <Image
+                src={language.flag}
+                alt=""
+                width={25}
+                height={25}
+              />
+              <span className="text-sm">{language.name.toUpperCase()}</span>
+            </button>
+          </li>
+        ))}
+      </ul>
     </div>
   );
 }

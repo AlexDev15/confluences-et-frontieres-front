@@ -4,13 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f9066963-514a-4e24-8a21-1e897c0a8110" name="Changes" comment="feat(ui-kit): Create first component of the site.">
-      <change beforePath="$PROJECT_DIR$/front-app/app/[lang]/ui-kit/molecules/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/front-app/app/[lang]/ui-kit/molecules/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front-app/app/[lang]/ui-kit/organisms/OrganismsShowcase.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/front-app/app/[lang]/ui-kit/organisms/OrganismsShowcase.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front-app/app/layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/front-app/app/layout.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front-app/components/organisms/Footer/Footer.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/front-app/components/organisms/Footer/Footer.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front-app/components/organisms/ProjectDescription/ProjectDescription.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/front-app/components/organisms/ProjectDescription/ProjectDescription.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front-app/proxy.ts" beforeDir="false" afterPath="$PROJECT_DIR$/front-app/proxy.ts" afterDir="false" />
+    <list default="true" id="f9066963-514a-4e24-8a21-1e897c0a8110" name="Changes" comment="chore(assets): Add old assets to the new project.">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front-app/app/[lang]/ui-kit/layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/front-app/app/[lang]/ui-kit/layout.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front-app/components/molecules/PartnersSubMenu/PartnersSubMenu.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/front-app/components/molecules/PartnersSubMenu/PartnersSubMenu.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front-app/components/molecules/TranslationSelector/TranslationSelector.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/front-app/components/molecules/TranslationSelector/TranslationSelector.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front-app/components/organisms/Header/Header.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/front-app/components/organisms/Header/Header.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front-app/components/organisms/MainNavigation/MainNavigation.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/front-app/components/organisms/MainNavigation/MainNavigation.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front-app/components/organisms/MobileNavigation/MobileNavigation.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/front-app/components/organisms/MobileNavigation/MobileNavigation.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -127,7 +128,7 @@
       <workItem from="1773859058386" duration="2193000" />
       <workItem from="1773866755189" duration="1934000" />
       <workItem from="1774543799271" duration="560000" />
-      <workItem from="1775853990324" duration="4458000" />
+      <workItem from="1775853990324" duration="5719000" />
     </task>
     <task id="LOCAL-00001" summary="chore(project): initialization of project.">
       <option name="closed" value="true" />
@@ -161,7 +162,15 @@
       <option name="project" value="LOCAL" />
       <updated>1775861082667</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="chore(assets): Add old assets to the new project.">
+      <option name="closed" value="true" />
+      <created>1775861746497</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1775861746497</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -174,6 +183,7 @@
     <MESSAGE value="chore(project): initialization of project." />
     <MESSAGE value="feat(API): add services to site." />
     <MESSAGE value="feat(ui-kit): Create first component of the site." />
-    <option name="LAST_COMMIT_MESSAGE" value="feat(ui-kit): Create first component of the site." />
+    <MESSAGE value="chore(assets): Add old assets to the new project." />
+    <option name="LAST_COMMIT_MESSAGE" value="chore(assets): Add old assets to the new project." />
   </component>
 </project>

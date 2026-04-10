@@ -18,8 +18,8 @@ export default function UIKitLayout({ children }: { children: ReactNode }) {
   const base = `/${lang}/ui-kit`;
 
   return (
-    <div className="flex min-h-screen pt-[85px]">
-      <aside className="w-[240px] shrink-0 border-r border-theme/20 bg-surface p-6 sticky top-[85px] h-[calc(100vh-85px)] overflow-y-auto hidden tablet:block">
+    <div className="flex min-h-screen pt-[60px]">
+      <aside className="w-[240px] shrink-0 border-r border-theme/20 bg-surface p-6 sticky top-[60px] h-[calc(100vh-60px)] overflow-y-auto hidden tablet:block">
         <h2 className="text-lg font-bold text-theme mb-6">UI Kit</h2>
         <nav>
           <ul className="space-y-2">
