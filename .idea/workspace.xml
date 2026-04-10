@@ -4,12 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f9066963-514a-4e24-8a21-1e897c0a8110" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front-app/app/[lang]/dictionaries.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front-app/app/[lang]/page.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front-app/dictionaries/fr.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front-app/proxy.ts" afterDir="false" />
+    <list default="true" id="f9066963-514a-4e24-8a21-1e897c0a8110" name="Changes" comment="chore(project): initialization of project.">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -121,8 +117,17 @@
       <workItem from="1773859058386" duration="2193000" />
       <workItem from="1773866755189" duration="1934000" />
       <workItem from="1774543799271" duration="560000" />
-      <workItem from="1775853990324" duration="950000" />
+      <workItem from="1775853990324" duration="2691000" />
     </task>
+    <task id="LOCAL-00001" summary="chore(project): initialization of project.">
+      <option name="closed" value="true" />
+      <created>1775854956919</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1775854956919</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -130,5 +135,9 @@
   </component>
   <component name="UnknownFeatures">
     <option featureType="com.intellij.fileTypeFactory" implementationName="next.config.ts" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="chore(project): initialization of project." />
+    <option name="LAST_COMMIT_MESSAGE" value="chore(project): initialization of project." />
   </component>
 </project>
