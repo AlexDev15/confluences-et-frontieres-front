@@ -1,3 +1,279 @@
 {
-  "welcome": "Hello"
+  "welcome": "Hello",
+  "header": {
+    "home": "Home",
+    "partners": "Partners",
+    "project": "The Project",
+    "events": "Events",
+    "productions": "Productions",
+    "contact": "Contacts",
+    "logoDescription": "Logo of the Confluences & Frontieres association",
+    "languageSelector": {
+      "fr": "French",
+      "en": "English",
+      "pt": "Portuguese",
+      "it": "Italian",
+      "gl": "Galician"
+    },
+    "country": {
+      "france": "France",
+      "portugal": "Portugal",
+      "italy": "Italy",
+      "romania": "Romania",
+      "spain": "Spain"
+    },
+    "flagsDescriptions": {
+      "fr": "Flag of France",
+      "it": "Flag of Italy",
+      "en": "Flag of England",
+      "pt": "Flag of Portugal",
+      "gl": "Flag of Galicia"
+    }
+  },
+  "footer": {
+    "association": {
+      "description": "Association of amateurs, developers and experts.",
+      "ong": "Non-Governmental Organisation (NGO).",
+      "moreInformations": "For more information:",
+      "logoDescription": "Logo of the INTER+VALUE association"
+    },
+    "socialNetworks": {
+      "title": "Our Social Networks"
+    },
+    "contacts": {
+      "title": "Contact us",
+      "socialPlace": "Headquarters",
+      "annexe": "Annex",
+      "email": "Email"
+    },
+    "links": {
+      "siteMap": "Site map",
+      "licenses": "Licenses",
+      "legalMentions": "Legal mentions",
+      "copyright": "© 2024 INTER+VALUE Association"
+    }
+  },
+  "pages": {
+    "home": {
+      "projectDescription": {
+        "title": "Confluences & Frontieres",
+        "description": "CONFLUENCES & FRONTIERES is an intercultural exchange project proposed, from 2023, within the framework of partnerships between the INTER+VALUE association, created in Brittany (France), and various interested European structures.",
+        "discover": "Discover"
+      },
+      "partners": {
+        "title": "Partners",
+        "description": "Organisations and territories that have joined the project",
+        "learnMore": "Learn more"
+      },
+      "map": {
+        "search": {
+          "placeholder": "Search for a partner",
+          "notFound": "No partner found"
+        }
+      },
+      "activities": {
+        "title": "Our Activities",
+        "description": "Between visual creations and live experiences, we imagine and produce events that go beyond the norm."
+      }
+    },
+    "events": {
+      "title": { "prefix": "Our", "content": "events" },
+      "nextEvents": {
+        "prefix": "Upcoming",
+        "content": "events",
+        "description": "Discover all our upcoming events.",
+        "nothing": "No upcoming events",
+        "nothing1": "There are no events planned in the near future.",
+        "nothing2": "Come back later to see if new events have been added."
+      },
+      "pastEvents": {
+        "prefix": "Past",
+        "content": "events",
+        "description": "Discover all our past events.",
+        "nothing1": "No events have been listed on this page.",
+        "nothing2": "Come back later to see if new events have been added."
+      },
+      "calendar": {
+        "days": {
+          "monday": "Monday",
+          "tuesday": "Tuesday",
+          "wednesday": "Wednesday",
+          "thursday": "Thursday",
+          "friday": "Friday",
+          "saturday": "Saturday",
+          "sunday": "Sunday"
+        },
+        "noEvents": "No events are planned during the month of {month} {year}."
+      },
+      "individual": {
+        "alreadyPassed": "This event has already passed.",
+        "coming": "This event is upcoming.",
+        "organisationDate": "Organised on: {date}.",
+        "programAvailable": "A program is available, feel free to download it here!",
+        "programUnavailable": "The program for this event is not yet available.",
+        "download": "Download",
+        "moreDetails": "More details",
+        "details": {
+          "title": "Details",
+          "moreDetailsSubtitle": "Learn more",
+          "moreDetailsDescription": "Download the document to learn more about the event.",
+          "linkedEventsSubtitle": "Productions linked to this event"
+        }
+      },
+      "notFound1": "No events have been found at this time.",
+      "notFound2": "Try another search or come back later.",
+      "placeholder": "Search for an event...",
+      "learnMore": "See More",
+      "moreEvents": "More events",
+      "download": "Download the program",
+      "lastUpdate": "Last updated on {date}"
+    },
+    "productions": {
+      "title": { "prefix": "Our", "content": "productions" },
+      "allProductions": {
+        "title": { "prefix": "All our", "content": "productions" },
+        "description": "Discover all our productions.",
+        "placeholder": "Search for a production..."
+      },
+      "individual": {
+        "organisationDate": "Production made on: {date}.",
+        "details": {
+          "moreDetailsDescription": "Download the document to learn more about the production."
+        }
+      },
+      "learnMore": "See More",
+      "lastUpdate": "Last updated on {date}",
+      "notFound1": "No productions have been found at this time.",
+      "notFound2": "Try another search or come back later.",
+      "nothing1": "There are no productions that have been produced yet.",
+      "nothing2": "Come back later to see if new productions have been added.",
+      "moreProductions": "More productions"
+    },
+    "partners": {
+      "part": { "prefix": "Its place", "content": "in the project" },
+      "event": { "prefix": "", "content": "Events" }
+    },
+    "project": {
+      "mainDescription": {
+        "description": "Designed from an agreement between INTER+VALUE and the Portuguese municipality of Vimioso, the project is developed as a multi-year program."
+      },
+      "projectDescription": {
+        "title": { "prefix": "The", "content": "project" },
+        "description": "Designed from an agreement between INTER+VALUE and the Portuguese municipality of Vimioso, the project is developed as a multi-year program carried by citizens and involved territories."
+      },
+      "hisName": {
+        "title": { "prefix": "Its", "content": "name" },
+        "description": "The name CONFLUENCES & FRONTIERES was inspired by the desire for knowledge and dissemination of the cultures and heritage of the territories involved in the project."
+      },
+      "partnersDescription": {
+        "title": { "prefix": "The", "content": "partnerships" },
+        "imageDescription": "Logo of the municipality of Vimioso.",
+        "description1": "The first partnership agreement was concluded in 2022 between the INTER+VALUE association and the municipality of Vimioso (Portugal).",
+        "description2": "Presented by INTER+VALUE to some of its educational partners, the project has attracted the adhesion of various entities.",
+        "subTitle": "Our current partners:"
+      },
+      "mainActivity": {
+        "title": "ACTIVITIES, PRODUCTIONS AND CONTENTS",
+        "description": "The project aims to make known, enhance and disseminate the culture and heritage of the individuals and territories concerned."
+      },
+      "objectifsDescription": {
+        "title": { "prefix": "Our", "content": "objectives" },
+        "description": "The planned meetings, events and productions aim to:",
+        "list": {
+          "1": "share content related to the knowledge and enhancement of culture and heritage.",
+          "2": "debate questions of cultural and economic development and cross-border relations.",
+          "3": "involve the search for innovative solutions for future development."
+        }
+      },
+      "mainBiennaleDescription": {
+        "title": "THE INTERCULTURAL BIENNIALS",
+        "description": "Organised in Vimioso for the first time in autumn 2023 by INTER+VALUE and the local municipality."
+      },
+      "activitiesDescription": {
+        "title": { "prefix": "The", "content": "activities" },
+        "list": {
+          "1": "An international, intercultural and multilingual congress.",
+          "2": "Exhibitions of artistic, literary and religious works.",
+          "3": "An entertainment area with a market and workshops.",
+          "4": "The inauguration of wall murals.",
+          "5": "Cultural and recreational activities.",
+          "6": "Visits to museums and remarkable sites.",
+          "7": "Moments of convivial sharing.",
+          "8": "Educational meetings.",
+          "9": "The edition of a multilingual magazine."
+        }
+      }
+    },
+    "contacts": {
+      "title": { "prefix": "", "content": "Contact us" },
+      "name": "Name",
+      "location": "Address",
+      "site": "Website",
+      "email": "Email",
+      "secondTitle": { "prefix": "Contact our", "content": "partners" }
+    },
+    "notFound": {
+      "title": "Page not found",
+      "button": "Return to home"
+    },
+    "legalMentions": {
+      "title": "Legal mentions",
+      "france": "France",
+      "developer": "Developer",
+      "director": "Director",
+      "contentAnimator": "Content animator"
+    },
+    "licenses": {
+      "title": "Licenses",
+      "scriptsTitle": "Script licenses",
+      "scripts": "Scripts",
+      "licenses": "Licenses",
+      "authors": "Authors"
+    },
+    "sitePlan": {
+      "title": "Site map",
+      "home": "Home",
+      "projectDescription": "Project description",
+      "partnersDescription": "Partners presentation",
+      "map": "Partners map",
+      "partners": "Partners",
+      "project": "The project",
+      "events": "Events",
+      "pastEvents": "Past events",
+      "nextEvents": "Upcoming events",
+      "productions": "Productions",
+      "productionsList": "Productions list",
+      "contacts": "Contacts"
+    }
+  },
+  "others": {
+    "imageOf": "Image of {something}",
+    "scrollToSeeMore": "Scroll to see more"
+  },
+  "uiKit": {
+    "title": "UI Kit",
+    "atoms": "Atoms",
+    "molecules": "Molecules",
+    "organisms": "Organisms",
+    "colors": "Color palette",
+    "typography": "Typographic scale",
+    "buttons": "Buttons",
+    "icons": "Icons",
+    "modal": "Modal",
+    "themeToggle": "Theme toggle",
+    "overview": "Overview",
+    "demoText": "The quick brown fox jumps over the lazy dog."
+  },
+  "accessibility": {
+    "skipToContent": "Skip to main content",
+    "openMenu": "Open menu",
+    "closeMenu": "Close menu",
+    "toggleTheme": "Toggle theme",
+    "scrollToTop": "Back to top",
+    "scrollDown": "Scroll down",
+    "search": "Search",
+    "previousPage": "Previous page",
+    "nextPage": "Next page",
+    "close": "Close"
+  }
 }

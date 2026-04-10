@@ -1,1 +1,124 @@
 @import "tailwindcss";
+
+@theme {
+  --color-primary: #1f559c;
+  --color-primary-bg: rgba(31, 85, 156, 0.1);
+  --color-accent: #B12316;
+  --color-accent-bg: rgba(177, 35, 22, 0.1);
+  --color-surface: #ffffff;
+  --color-on-surface: #000000;
+  --color-on-primary: #ffffff;
+
+  --breakpoint-phone: 480px;
+  --breakpoint-tablet: 728px;
+  --breakpoint-desktop: 1024px;
+
+  --font-mono: 'Roboto Mono', ui-monospace, monospace;
+
+  --letter-spacing-wide: 1.5px;
+}
+
+/* Theme variables */
+:root {
+  --theme-color: var(--color-primary);
+  --theme-color-bg: var(--color-primary-bg);
+  --theme-transition-duration: 0.3s;
+}
+
+:root[data-theme="evenements"] {
+  --theme-color: var(--color-primary);
+  --theme-color-bg: var(--color-primary-bg);
+}
+
+:root[data-theme="productions"] {
+  --theme-color: var(--color-accent);
+  --theme-color-bg: var(--color-accent-bg);
+}
+
+/* Theme utility classes */
+@utility text-theme {
+  color: var(--theme-color);
+}
+
+@utility bg-theme {
+  background-color: var(--theme-color);
+}
+
+@utility bg-theme-light {
+  background-color: var(--theme-color-bg);
+}
+
+@utility border-theme {
+  border-color: var(--theme-color);
+}
+
+/* Global base styles */
+* {
+  box-sizing: border-box;
+  letter-spacing: var(--letter-spacing-wide);
+}
+
+/* Theme transitions */
+*,
+*::before,
+*::after {
+  transition-property: color, background-color, border-color, fill, stroke, box-shadow;
+  transition-duration: var(--theme-transition-duration);
+  transition-timing-function: ease-in-out;
+}
+
+/* Preserve existing transitions */
+*[style*="transition"],
+*[class*="transition"] {
+  transition-property: all;
+}
+
+/* DownButton bounce animation */
+@keyframes arrow-bounce {
+  0%, 20%, 50%, 80%, 100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+  50% {
+    transform: translateY(15px);
+    opacity: 0;
+  }
+  51% {
+    transform: translateY(-15px);
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+/* FullCalendar theme overrides */
+:root {
+  --fc-border-color: var(--theme-color);
+}
+
+.fc .fc-button-primary {
+  background-color: var(--theme-color);
+  border-color: var(--theme-color);
+}
+
+.fc .fc-button-primary:hover {
+  opacity: 0.85;
+}
+
+.fc .fc-button-primary:not(:disabled).fc-button-active {
+  background-color: var(--theme-color);
+  border-color: var(--theme-color);
+  opacity: 0.7;
+}
+
+.fc .fc-daygrid-day.fc-day-today {
+  background-color: var(--theme-color-bg);
+}
+
+.fc .fc-daygrid-event {
+  background-color: var(--theme-color);
+  border-color: var(--theme-color);
+  color: white;
+  cursor: pointer;
+}

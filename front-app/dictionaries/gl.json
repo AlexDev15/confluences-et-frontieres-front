@@ -1,3 +1,279 @@
 {
-  "welcome": "Ola"
+  "welcome": "Ola",
+  "header": {
+    "home": "Inicio",
+    "partners": "Socios",
+    "project": "O Proxecto",
+    "events": "Eventos",
+    "productions": "Producions",
+    "contact": "Contactos",
+    "logoDescription": "Logo da asociacion Confluences & Frontieres",
+    "languageSelector": {
+      "fr": "Frances",
+      "en": "Ingles",
+      "pt": "Portugues",
+      "it": "Italiano",
+      "gl": "Galego"
+    },
+    "country": {
+      "france": "Francia",
+      "portugal": "Portugal",
+      "italy": "Italia",
+      "romania": "Romania",
+      "spain": "Espana"
+    },
+    "flagsDescriptions": {
+      "fr": "Bandeira de Francia",
+      "it": "Bandeira de Italia",
+      "en": "Bandeira de Inglaterra",
+      "pt": "Bandeira de Portugal",
+      "gl": "Bandeira de Galicia"
+    }
+  },
+  "footer": {
+    "association": {
+      "description": "Asociacion de afeccionados, desenvolvedores e expertos.",
+      "ong": "Organizacion Non Gobernamental (ONG).",
+      "moreInformations": "Para mais informacions:",
+      "logoDescription": "Logo da asociacion INTER+VALUE"
+    },
+    "socialNetworks": {
+      "title": "As nosas Redes Sociais"
+    },
+    "contacts": {
+      "title": "Para contactar connosco",
+      "socialPlace": "Sede social",
+      "annexe": "Anexo",
+      "email": "Correo electronico"
+    },
+    "links": {
+      "siteMap": "Mapa do sitio",
+      "licenses": "Licenzas",
+      "legalMentions": "Mencions legais",
+      "copyright": "© 2024 Asociacion INTER+VALUE"
+    }
+  },
+  "pages": {
+    "home": {
+      "projectDescription": {
+        "title": "Confluences & Frontieres",
+        "description": "CONFLUENCES & FRONTIERES e un proxecto de intercambios interculturais proposto, a partir de 2023, no marco de asociacions entre a asociacion INTER+VALUE, creada en Bretana (Francia), e diversas estruturas europeas interesadas.",
+        "discover": "Descubrir"
+      },
+      "partners": {
+        "title": "Socios",
+        "description": "Organismos e territorios que se adheriron ao proxecto",
+        "learnMore": "Saber mais"
+      },
+      "map": {
+        "search": {
+          "placeholder": "Buscar un socio",
+          "notFound": "Ningun socio atopado"
+        }
+      },
+      "activities": {
+        "title": "As nosas Actividades",
+        "description": "Entre creacions visuais e experiencias en directo, imaxinamos e producimos eventos que van mais ala do convencional."
+      }
+    },
+    "events": {
+      "title": { "prefix": "Os nosos", "content": "eventos" },
+      "nextEvents": {
+        "prefix": "Proximos",
+        "content": "eventos",
+        "description": "Descubride todos os nosos proximos eventos.",
+        "nothing": "Ningun evento por vir",
+        "nothing1": "Ainda non hai eventos previstos proximamente.",
+        "nothing2": "Volvede mais tarde para ver se novos eventos foron engadidos."
+      },
+      "pastEvents": {
+        "prefix": "Eventos",
+        "content": "realizados",
+        "description": "Descubride todos os nosos eventos realizados.",
+        "nothing1": "Ningun evento foi listado nesta paxina.",
+        "nothing2": "Volvede mais tarde para ver se novos eventos foron engadidos."
+      },
+      "calendar": {
+        "days": {
+          "monday": "Luns",
+          "tuesday": "Martes",
+          "wednesday": "Mercores",
+          "thursday": "Xoves",
+          "friday": "Venres",
+          "saturday": "Sabado",
+          "sunday": "Domingo"
+        },
+        "noEvents": "Ningun evento esta previsto durante o mes de {month} {year}."
+      },
+      "individual": {
+        "alreadyPassed": "Este evento xa pasou.",
+        "coming": "Este evento esta por vir.",
+        "organisationDate": "Organizado o: {date}.",
+        "programAvailable": "Un programa esta disponible, non dubidedes en descargalo aqui!",
+        "programUnavailable": "O programa deste evento ainda non esta disponible.",
+        "download": "Descargar",
+        "moreDetails": "Mais detalles",
+        "details": {
+          "title": "Detalles",
+          "moreDetailsSubtitle": "Saber mais",
+          "moreDetailsDescription": "Descargade o documento para saber mais sobre o evento.",
+          "linkedEventsSubtitle": "Producions ligadas a este evento"
+        }
+      },
+      "notFound1": "Ningun evento foi atopado de momento.",
+      "notFound2": "Tentade outra busca ou volvede mais tarde.",
+      "placeholder": "Buscar un evento...",
+      "learnMore": "Ver Mais",
+      "moreEvents": "Mais eventos",
+      "download": "Descargar o programa",
+      "lastUpdate": "Actualizado o {date}"
+    },
+    "productions": {
+      "title": { "prefix": "As nosas", "content": "producions" },
+      "allProductions": {
+        "title": { "prefix": "Todas as nosas", "content": "producions" },
+        "description": "Descubride todas as nosas producions.",
+        "placeholder": "Buscar unha producion..."
+      },
+      "individual": {
+        "organisationDate": "Producion realizada o: {date}.",
+        "details": {
+          "moreDetailsDescription": "Descargade o documento para saber mais sobre a producion."
+        }
+      },
+      "learnMore": "Ver Mais",
+      "lastUpdate": "Actualizado o {date}",
+      "notFound1": "Ningunha producion foi atopada de momento.",
+      "notFound2": "Tentade outra busca ou volvede mais tarde.",
+      "nothing1": "Ainda non hai producions que fosen producidas.",
+      "nothing2": "Volvede mais tarde para ver se novas producions foron engadidas.",
+      "moreProductions": "Mais producions"
+    },
+    "partners": {
+      "part": { "prefix": "O seu lugar", "content": "no proxecto" },
+      "event": { "prefix": "", "content": "Eventos" }
+    },
+    "project": {
+      "mainDescription": {
+        "description": "Concibido a partir dun acordo entre INTER+VALUE e o municipio portugues de Vimioso, o proxecto desenvolverse baixo a forma dun programa plurianual."
+      },
+      "projectDescription": {
+        "title": { "prefix": "O", "content": "proxecto" },
+        "description": "Concibido a partir dun acordo entre INTER+VALUE e o municipio portugues de Vimioso, o proxecto desenvolverse baixo a forma dun programa plurianual sostido por cidadans e territorios implicados."
+      },
+      "hisName": {
+        "title": { "prefix": "O seu", "content": "nome" },
+        "description": "O nome CONFLUENCES & FRONTIERES foi inspirado pola vontade de conecemento e difusion das culturas e patrimonios dos territorios implicados no proxecto."
+      },
+      "partnersDescription": {
+        "title": { "prefix": "As", "content": "asociacions" },
+        "imageDescription": "Logo do municipio de Vimioso.",
+        "description1": "O primeiro acordo de asociacion foi concluido en 2022 entre a asociacion INTER+VALUE e o municipio de Vimioso (Portugal).",
+        "description2": "Presentado por INTER+VALUE a alguns dos seus socios educativos, o proxecto suscitou a adhesion de entidades diversas.",
+        "subTitle": "Os nosos socios actuais:"
+      },
+      "mainActivity": {
+        "title": "ACTIVIDADES, PRODUCIONS E CONTIDOS",
+        "description": "O proxecto ten a vontade de dar a conecer, valorizar e difundir a cultura e o patrimonio dos individuos e territorios implicados."
+      },
+      "objectifsDescription": {
+        "title": { "prefix": "Os nosos", "content": "obxectivos" },
+        "description": "Os encontros, eventos e producions proxectados tenen como obxectivo:",
+        "list": {
+          "1": "compartir contidos relacionados co conecemento e a valorizacion da cultura e do patrimonio.",
+          "2": "debater cuestions do desenvolvemento cultural e economico e das relacions transfronteirizas.",
+          "3": "implicar a busca de solucions innovadoras para o desenvolvemento futuro."
+        }
+      },
+      "mainBiennaleDescription": {
+        "title": "AS BIENAIS INTERCULTURAIS",
+        "description": "Organizado en Vimioso por primeira vez no outono de 2023 por INTER+VALUE e o municipio local."
+      },
+      "activitiesDescription": {
+        "title": { "prefix": "As", "content": "actividades" },
+        "list": {
+          "1": "Un congreso internacional, intercultural e plurilingue.",
+          "2": "Exposicions de obras artisticas, literarias e relixiosas.",
+          "3": "Un espazo de animacion cun mercado e obradoiros.",
+          "4": "A inauguracion de frescos murais.",
+          "5": "Actividades culturais e recreativas.",
+          "6": "Visitas a museos e lugares notables.",
+          "7": "Momentos de convivencia.",
+          "8": "Reunions educativas.",
+          "9": "A edicion dunha revista plurilingue."
+        }
+      }
+    },
+    "contacts": {
+      "title": { "prefix": "", "content": "Contactade connosco" },
+      "name": "Nome",
+      "location": "Enderezo",
+      "site": "Sitio",
+      "email": "Correo electronico",
+      "secondTitle": { "prefix": "Contactar cos nosos", "content": "socios" }
+    },
+    "notFound": {
+      "title": "Paxina non atopada",
+      "button": "Volver ao inicio"
+    },
+    "legalMentions": {
+      "title": "Mencions legais",
+      "france": "Francia",
+      "developer": "Desenvolvedor",
+      "director": "Director",
+      "contentAnimator": "Animador de contidos"
+    },
+    "licenses": {
+      "title": "Licenzas",
+      "scriptsTitle": "Licenzas de scripts",
+      "scripts": "Scripts",
+      "licenses": "Licenzas",
+      "authors": "Autores"
+    },
+    "sitePlan": {
+      "title": "Mapa do sitio",
+      "home": "Inicio",
+      "projectDescription": "Descricion do proxecto",
+      "partnersDescription": "Presentacion dos socios",
+      "map": "Mapa dos socios",
+      "partners": "Os socios",
+      "project": "O proxecto",
+      "events": "Os eventos",
+      "pastEvents": "Os eventos pasados",
+      "nextEvents": "Os proximos eventos",
+      "productions": "As producions",
+      "productionsList": "Lista das producions",
+      "contacts": "Contactos"
+    }
+  },
+  "others": {
+    "imageOf": "Imaxe de {something}",
+    "scrollToSeeMore": "Desprazar para ver mais"
+  },
+  "uiKit": {
+    "title": "UI Kit",
+    "atoms": "Atomos",
+    "molecules": "Moleculas",
+    "organisms": "Organismos",
+    "colors": "Paleta de cores",
+    "typography": "Escala tipografica",
+    "buttons": "Botons",
+    "icons": "Iconas",
+    "modal": "Modal",
+    "themeToggle": "Cambio de tema",
+    "overview": "Vision xeral",
+    "demoText": "O rapido raposo marron salta por riba do can preguiceiro."
+  },
+  "accessibility": {
+    "skipToContent": "Ir ao contido principal",
+    "openMenu": "Abrir menu",
+    "closeMenu": "Pechar menu",
+    "toggleTheme": "Cambiar tema",
+    "scrollToTop": "Volver arriba",
+    "scrollDown": "Desprazar cara abaixo",
+    "search": "Buscar",
+    "previousPage": "Paxina anterior",
+    "nextPage": "Seguinte paxina",
+    "close": "Pechar"
+  }
 }
