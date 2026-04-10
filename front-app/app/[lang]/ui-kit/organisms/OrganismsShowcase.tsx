@@ -11,21 +11,21 @@ const mockEvents = [
   {
     name: "1ere Biennale de Vimioso",
     date: "2023-10-15",
-    image: "/C&F_Logo.gif",
+    image: "/images/events/1er_Biennal_Interculturel_Vimioso.jpg",
     description: "Premiere biennale interculturelle organisee a Vimioso.",
     url: "#",
   },
   {
     name: "Fresques murales a Bruz",
     date: "2024-06-01",
-    image: "/C&F_Logo.gif",
+    image: "/images/events/FresqueMuralBruz.jpeg",
     description: "L'artiste Allan Halley peint des fresques a Bruz.",
     url: "#",
   },
   {
     name: "Congres International",
     date: "2024-09-28",
-    image: "/C&F_Logo.gif",
+    image: "/images/events/1er_Congrès_international_interculturel_et_plurilingue.jpg",
     description: "Congres international interculturel et plurilingue.",
     url: "#",
   },
@@ -66,10 +66,10 @@ export default function OrganismsShowcase({ dict, lang }: { dict: Record<string,
             name: "1ere Biennale de Vimioso",
             date: "2023-10-15",
             description: "Premiere biennale interculturelle, transfrontaliere et europeenne de Vimioso.",
-            image: "/C&F_Logo.gif",
+            image: "/images/events/1er_Biennal_Interculturel_Vimioso.jpg",
           }}
           linkedProductions={[
-            { title: "Fresques murales", image: "/C&F_Logo.gif" },
+            { title: "Fresques murales", image: "/images/productions/GrandeMuraille.jpg" },
           ]}
           dict={dict}
         />

@@ -4,121 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f9066963-514a-4e24-8a21-1e897c0a8110" name="Changes" comment="feat(API): add services to site.">
-      <change afterPath="$PROJECT_DIR$/front-app/app/[lang]/layout.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front-app/app/[lang]/ui-kit/atoms/AtomsShowcase.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front-app/app/[lang]/ui-kit/atoms/page.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front-app/app/[lang]/ui-kit/layout.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front-app/app/[lang]/ui-kit/molecules/MoleculesShowcase.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front-app/app/[lang]/ui-kit/molecules/page.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front-app/app/[lang]/ui-kit/organisms/OrganismsShowcase.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front-app/app/[lang]/ui-kit/organisms/page.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front-app/app/[lang]/ui-kit/page.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front-app/components/atoms/ActivityElement/ActivityElement.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front-app/components/atoms/ActivityElement/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front-app/components/atoms/Button/Button.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front-app/components/atoms/Button/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front-app/components/atoms/CarouselButton/CarouselButton.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front-app/components/atoms/CarouselButton/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front-app/components/atoms/DownButton/DownButton.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front-app/components/atoms/DownButton/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front-app/components/atoms/Icon/Icon.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front-app/components/atoms/Icon/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front-app/components/atoms/LinkedElement/LinkedElement.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front-app/components/atoms/LinkedElement/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front-app/components/atoms/Modal/Modal.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front-app/components/atoms/Modal/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front-app/components/atoms/MotionDiv/MotionDiv.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front-app/components/atoms/MotionDiv/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front-app/components/atoms/ThemeToggle/ThemeToggle.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front-app/components/atoms/ThemeToggle/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front-app/components/atoms/UpButton/UpButton.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front-app/components/atoms/UpButton/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front-app/components/molecules/EventCard/EventCard.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front-app/components/molecules/EventCard/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front-app/components/molecules/MapInformations/MapInformations.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front-app/components/molecules/MapInformations/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front-app/components/molecules/MapMobileInformations/MapMobileInformations.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front-app/components/molecules/MapMobileInformations/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front-app/components/molecules/MobileList/MobileList.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front-app/components/molecules/MobileList/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front-app/components/molecules/Pagination/Pagination.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front-app/components/molecules/Pagination/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front-app/components/molecules/PartnersElement/PartnersElement.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front-app/components/molecules/PartnersElement/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front-app/components/molecules/PartnersList/PartnersList.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front-app/components/molecules/PartnersList/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front-app/components/molecules/PartnersMobileElement/PartnersMobileElement.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front-app/components/molecules/PartnersMobileElement/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front-app/components/molecules/PartnersSubMenu/PartnersSubMenu.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front-app/components/molecules/PartnersSubMenu/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front-app/components/molecules/RoundContainer/RoundContainer.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front-app/components/molecules/RoundContainer/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front-app/components/molecules/SearchBar/SearchBar.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front-app/components/molecules/SearchBar/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front-app/components/molecules/TranslationSelector/TranslationSelector.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front-app/components/molecules/TranslationSelector/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front-app/components/organisms/ActivitiesDescription/ActivitiesDescription.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front-app/components/organisms/ActivitiesDescription/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front-app/components/organisms/Calendar/Calendar.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front-app/components/organisms/Calendar/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front-app/components/organisms/DetailsModal/DetailsModal.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front-app/components/organisms/DetailsModal/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front-app/components/organisms/EventsDescription/EventsDescription.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front-app/components/organisms/EventsDescription/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front-app/components/organisms/Footer/Footer.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front-app/components/organisms/Footer/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front-app/components/organisms/Header/Header.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front-app/components/organisms/Header/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front-app/components/organisms/HisName/HisName.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front-app/components/organisms/HisName/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front-app/components/organisms/MainActivity/MainActivity.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front-app/components/organisms/MainActivity/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front-app/components/organisms/MainBiennaleDescription/MainBiennaleDescription.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front-app/components/organisms/MainBiennaleDescription/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front-app/components/organisms/MainDescription/MainDescription.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front-app/components/organisms/MainDescription/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front-app/components/organisms/MainNavigation/MainNavigation.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front-app/components/organisms/MainNavigation/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front-app/components/organisms/Map/Map.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front-app/components/organisms/Map/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front-app/components/organisms/MobileNavigation/MobileNavigation.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front-app/components/organisms/MobileNavigation/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front-app/components/organisms/NextEvents/NextEvents.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front-app/components/organisms/NextEvents/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front-app/components/organisms/ObjectifsDescription/ObjectifsDescription.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front-app/components/organisms/ObjectifsDescription/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front-app/components/organisms/PartnersCarousel/PartnersCarousel.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front-app/components/organisms/PartnersCarousel/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front-app/components/organisms/PartnersDescription/PartnersDescription.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front-app/components/organisms/PartnersDescription/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front-app/components/organisms/PartnersMobile/PartnersMobile.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front-app/components/organisms/PartnersMobile/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front-app/components/organisms/PastEvents/PastEvents.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front-app/components/organisms/PastEvents/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front-app/components/organisms/ProductionPreList/ProductionPreList.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front-app/components/organisms/ProductionPreList/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front-app/components/organisms/ProjectDescription/ProjectDescription.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front-app/components/organisms/ProjectDescription/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front-app/components/organisms/ProjectDescriptionSection/ProjectDescriptionSection.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front-app/components/organisms/ProjectDescriptionSection/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front-app/components/organisms/ProjectPartnersDescription/ProjectPartnersDescription.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front-app/components/organisms/ProjectPartnersDescription/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front-app/components/templates/PageTemplate/PageTemplate.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front-app/components/templates/PageTemplate/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front-app/contexts/ThemeContext.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front-app/app/[lang]/dictionaries.ts" beforeDir="false" afterPath="$PROJECT_DIR$/front-app/app/[lang]/dictionaries.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front-app/app/[lang]/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/front-app/app/[lang]/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front-app/app/globals.css" beforeDir="false" afterPath="$PROJECT_DIR$/front-app/app/globals.css" afterDir="false" />
+    <list default="true" id="f9066963-514a-4e24-8a21-1e897c0a8110" name="Changes" comment="feat(ui-kit): Create first component of the site.">
+      <change beforePath="$PROJECT_DIR$/front-app/app/[lang]/ui-kit/molecules/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/front-app/app/[lang]/ui-kit/molecules/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front-app/app/[lang]/ui-kit/organisms/OrganismsShowcase.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/front-app/app/[lang]/ui-kit/organisms/OrganismsShowcase.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/front-app/app/layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/front-app/app/layout.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front-app/dictionaries/en.json" beforeDir="false" afterPath="$PROJECT_DIR$/front-app/dictionaries/en.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front-app/dictionaries/fr.json" beforeDir="false" afterPath="$PROJECT_DIR$/front-app/dictionaries/fr.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front-app/dictionaries/gl.json" beforeDir="false" afterPath="$PROJECT_DIR$/front-app/dictionaries/gl.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front-app/dictionaries/it.json" beforeDir="false" afterPath="$PROJECT_DIR$/front-app/dictionaries/it.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front-app/dictionaries/pt.json" beforeDir="false" afterPath="$PROJECT_DIR$/front-app/dictionaries/pt.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front-app/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/front-app/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front-app/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/front-app/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front-app/components/organisms/Footer/Footer.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/front-app/components/organisms/Footer/Footer.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front-app/components/organisms/ProjectDescription/ProjectDescription.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/front-app/components/organisms/ProjectDescription/ProjectDescription.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front-app/proxy.ts" beforeDir="false" afterPath="$PROJECT_DIR$/front-app/proxy.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -235,7 +127,7 @@
       <workItem from="1773859058386" duration="2193000" />
       <workItem from="1773866755189" duration="1934000" />
       <workItem from="1774543799271" duration="560000" />
-      <workItem from="1775853990324" duration="4053000" />
+      <workItem from="1775853990324" duration="4458000" />
     </task>
     <task id="LOCAL-00001" summary="chore(project): initialization of project.">
       <option name="closed" value="true" />
@@ -253,7 +145,23 @@
       <option name="project" value="LOCAL" />
       <updated>1775857268191</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="feat(API): add services to site.">
+      <option name="closed" value="true" />
+      <created>1775861051231</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1775861051231</updated>
+    </task>
+    <task id="LOCAL-00004" summary="feat(ui-kit): Create first component of the site.">
+      <option name="closed" value="true" />
+      <created>1775861082667</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1775861082667</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -265,6 +173,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="chore(project): initialization of project." />
     <MESSAGE value="feat(API): add services to site." />
-    <option name="LAST_COMMIT_MESSAGE" value="feat(API): add services to site." />
+    <MESSAGE value="feat(ui-kit): Create first component of the site." />
+    <option name="LAST_COMMIT_MESSAGE" value="feat(ui-kit): Create first component of the site." />
   </component>
 </project>

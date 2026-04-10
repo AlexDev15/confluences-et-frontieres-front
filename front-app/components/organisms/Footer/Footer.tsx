@@ -80,10 +80,10 @@ export default function Footer({ lang, dict }: FooterProps) {
               aria-label="INTER+VALUE - interplusvalue.org"
             >
               <Image
-                src="/images/intervalue-logo.png"
+                src="/I+V_LogoWithDesc.png"
                 alt="INTER+VALUE logo"
-                width={150}
-                height={50}
+                width={200}
+                height={200}
                 className="object-contain"
               />
             </Link>

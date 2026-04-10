@@ -26,14 +26,14 @@ export default async function MoleculesPage({
           <EventCard
             name="1ere Biennale de Vimioso"
             date="2023-10-15"
-            image="/C&F_Logo.gif"
+            image="/images/events/1er_Biennal_Interculturel_Vimioso.jpg"
             description="Premiere biennale interculturelle, transfrontaliere et europeenne organisee a Vimioso."
             url={`/${lang}/events`}
           />
           <EventCard
             name="Fresques murales a Bruz"
             date="2024-06-01"
-            image="/C&F_Logo.gif"
+            image="/images/events/FresqueMuralBruz.jpeg"
             description="L'artiste Allan Halley peint quatre fresques murales a Bruz entre juin et septembre 2024."
             url={`/${lang}/events`}
           />
@@ -44,8 +44,8 @@ export default async function MoleculesPage({
       <section>
         <h2 className="text-xl font-bold text-theme mb-4">PartnersElement (Desktop)</h2>
         <div className="grid grid-cols-1 tablet:grid-cols-2 desktop:grid-cols-3 gap-6">
-          <PartnersElement image="/C&F_Logo.gif" name="Vimioso" description="Municipalite du nord-est du Portugal" location="Tras-os-Montes, Portugal" />
-          <PartnersElement image="/C&F_Logo.gif" name="Ribadavia" description="Petite ville chargee d'histoire" location="Galice, Espagne" />
+          <PartnersElement image="/images/partners/Vimioso.jpg" name="Vimioso" description="Municipalite du nord-est du Portugal" location="Tras-os-Montes, Portugal" />
+          <PartnersElement image="/images/partners/Ribadavia.jpg" name="Ribadavia" description="Petite ville chargee d'histoire" location="Galice, Espagne" />
         </div>
       </section>
 
@@ -53,7 +53,7 @@ export default async function MoleculesPage({
       <section>
         <h2 className="text-xl font-bold text-theme mb-4">PartnersMobileElement</h2>
         <div className="max-w-sm">
-          <PartnersMobileElement image="/C&F_Logo.gif" name="Prato" description="Ville dynamique et historique de Toscane" location="Toscane, Italie" />
+          <PartnersMobileElement image="/images/partners/Prato.jpg" name="Prato" description="Ville dynamique et historique de Toscane" location="Toscane, Italie" />
         </div>
       </section>
 

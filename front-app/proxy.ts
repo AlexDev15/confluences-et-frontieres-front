@@ -7,6 +7,17 @@ const defaultLocale = 'fr'
 export function proxy(request: NextRequest) {
     const { pathname } = request.nextUrl
 
+    // Skip static files and assets
+    if (
+        pathname.startsWith('/_next') ||
+        pathname.startsWith('/api') ||
+        pathname.startsWith('/images') ||
+        pathname.startsWith('/ressources') ||
+        pathname.includes('.') // any file with an extension (favicon.ico, C&F_Logo.gif, etc.)
+    ) {
+        return NextResponse.next()
+    }
+
     // Check if the pathname already has a locale
     const pathnameHasLocale = locales.some(
         (locale) => pathname.startsWith(`/${locale}/`) || pathname === `/${locale}`
@@ -19,5 +30,5 @@ export function proxy(request: NextRequest) {
 }
 
 export const config = {
-    matcher: ['/((?!_next|api|favicon.ico).*)'],
+    matcher: ['/((?!_next).*)'],
 }

@@ -28,7 +28,7 @@ export default function ProjectDescription({
           playsInline
           className="absolute inset-0 object-cover w-full h-full"
         >
-          <source src="/videos/hero.mp4" type="video/mp4" />
+          <source src="/images/home/presentation_video.mp4" type="video/mp4" />
         </video>
       </div>
 

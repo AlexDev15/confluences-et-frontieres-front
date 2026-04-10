@@ -19,7 +19,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="fr" className={`${robotoMono.variable} h-full`}>
+    <html lang="fr" suppressHydrationWarning className={`${robotoMono.variable} h-full`}>
       <body className="min-h-full flex flex-col font-mono text-on-surface bg-surface overflow-x-hidden">
         {children}
       </body>
