@@ -6,9 +6,8 @@ services:
       context: ../../front-app
       dockerfile: Dockerfile
     image: nextjs-standalone-image
-    environment:
-      NODE_ENV: production
-      PORT: "${PORT}"
+    env_file:
+      - ../../.env
     ports:
       - "3000:${PORT}"
     container_name: ${COMPOSE_PROJECT_NAME}-front
