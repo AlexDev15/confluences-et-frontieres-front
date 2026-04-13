@@ -10,12 +10,10 @@ import Button from "@/components/Button/Button";
 import styles from "./MainNavigation.module.scss";
 import TranslationSelector from "../TranslationSelector/TranslationSelector";
 import PartnersSubMenu from "./PartnersSubMenu/PartnersSubMenu";
-import {useTheme} from "@/contexts/ThemeContext";
 
 export default function MainNavigation({ togglePartnersMenu }: { togglePartnersMenu: (value: boolean) => void }) {
 	const t = useTranslations("Header");
 	const local = useLocale();
-    const { setTheme } = useTheme();
 
 	return (
 		<menu className={styles.menu}>
@@ -64,7 +62,6 @@ export default function MainNavigation({ togglePartnersMenu }: { togglePartnersM
 						href={`/${local}/events`}
 						onClick={() => {
 							togglePartnersMenu(false);
-                            setTheme('evenements');
 						}}
 					>
 						<Button text={t("Events").toUpperCase()} style="underlinePrimary" />
@@ -75,7 +72,6 @@ export default function MainNavigation({ togglePartnersMenu }: { togglePartnersM
 						href={`/${local}/productions`}
 						onClick={() => {
 							togglePartnersMenu(false);
-                            setTheme('productions');
 						}}
 					>
 						<Button text={t("Productions").toUpperCase()} style="underlinePrimary" />

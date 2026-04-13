@@ -1,6 +1,7 @@
 "use client";
 
 import React, { createContext, useContext, useState, useEffect, ReactNode } from 'react';
+import { usePathname } from 'next/navigation';
 
 type ThemeType = 'evenements' | 'productions';
 
@@ -43,16 +44,16 @@ export const ThemeProvider = ({ children }: { children: ReactNode }) => {
     localStorage.setItem('app-theme', theme);
   }, [theme]);
 
+  const pathname = usePathname();
+
   useEffect(() => {
-    // Écouter les changements d'URL pour mettre à jour le thème
-    const pathname = window.location.pathname;
-    if (pathname.includes('/productions')) {
-      setTheme('productions');
-    } else if (pathname.includes('/events')) {
-      setTheme('evenements');
+    if (pathname?.includes('/productions')) {
+      setThemeState('productions');
+    } else if (pathname?.includes('/events')) {
+      setThemeState('evenements');
     }
-    // Si on n'est ni sur /productions ni sur /events, on garde le thème actuel (du localStorage)
-  }, [])
+    // Sinon : conserver le thème courant (dernier choisi / localStorage)
+  }, [pathname])
 
   const toggleTheme = () => {
     setThemeState(prev => prev === 'evenements' ? 'productions' : 'evenements');
