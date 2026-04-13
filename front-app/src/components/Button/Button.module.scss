@@ -1,0 +1,145 @@
+@use "../../app/variables" as *;
+
+.button {
+	width: 100px;
+	height: 80px;
+
+	color: $text-color;
+	font-weight: bold;
+	font-size: var(--step-0);
+	letter-spacing: $text-font-space;
+}
+
+.squarePrimary {
+	min-width: 200px;
+	min-height: 60px;
+	width: auto;
+	height: 55px;
+
+	padding-left: 20px;
+	padding-right: 20px;
+	white-space: nowrap;
+
+	background-color: $primary-color;
+
+	transition: background-color 0.2s, color 0.2s;
+
+	box-shadow: 1px 12px 24px -8px rgba(0, 0, 0, 0.27);
+
+	&:hover {
+		background-color: $text-color;
+		color: $primary-color;
+
+		transition: background-color 0.2s, color 0.2s;
+	}
+}
+
+.squareSecondary {
+	min-width: 200px;
+	min-height: 60px;
+	width: auto;
+	height: 55px;
+
+	padding-left: 20px;
+	padding-right: 20px;
+
+	font-weight: 400;
+	white-space: nowrap;
+
+	border: 1px solid $text-color;
+
+	background-color: transparent;
+	color: $text-color;
+
+	transition: background-color 0.2s, color 0.2s;
+
+	box-shadow: 1px 12px 24px -8px rgba(0, 0, 0, 0.27);
+
+	&:hover {
+		background-color: $text-color;
+		color: black;
+
+		transition: background-color 0.2s, color 0.2s;
+	}
+
+	&.disabled {
+		cursor: default;
+
+		background-color: rgba(255, 255, 255, 0.498);
+		border-color: rgba(255, 255, 255, 0.498);
+		color: black;
+	}
+}
+
+.underlinePrimary {
+	display: inline-block;
+
+	text-decoration: none;
+	background-image: linear-gradient($primary-color, $primary-color);
+	background-size: 0% 2px;
+	background-position-y: 100%;
+	background-position-x: 0%;
+	background-repeat: no-repeat;
+	transition: background-size 0.2s ease-in-out;
+
+	width: auto;
+	height: auto;
+
+	white-space: nowrap;
+
+	color: $primary-color;
+
+	&:hover {
+		background-size: 100% 2px;
+		transition: background-size 0.2s ease-in-out;
+	}
+}
+
+.underlineSecondary {
+	display: inline-block;
+
+	font-size: var(--step--1);
+	font-weight: 300;
+
+	text-decoration: none;
+	background-image: linear-gradient($text-color, $text-color);
+	background-size: 0% 0.12em;
+	background-position-y: 100%;
+	background-position-x: 0%;
+	background-repeat: no-repeat;
+	transition: background-size 0.2s ease-in-out;
+
+	width: auto;
+	height: auto;
+
+	white-space: nowrap;
+
+	color: $text-color;
+
+	&:hover {
+		background-size: 100% 0.12em;
+		transition: background-size 0.2s ease-in-out;
+	}
+}
+
+@media screen and (max-width: 520px) {
+	.squarePrimary {
+		min-width: 150px;
+		min-height: 50px;
+		width: auto;
+		height: 45px;
+
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+
+	.squareSecondary {
+		min-width: 150px;
+		min-height: 50px;
+		width: auto;
+		height: 45px;
+
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+}

@@ -1,0 +1,61 @@
+@use "../../../../variables" as *;
+
+.secondColor {
+	color: $primary-color;
+}
+
+.productionsList {
+	width: 100%;
+	background-color: $primary-color-bg;
+
+	padding: 50px 5% 150px 5%;
+
+	.subtitle {
+		width: 100%;
+		margin-bottom: 30px;
+
+		display: flex;
+		justify-content: center;
+		text-align: center;
+
+		h2 {
+			font-size: calc(var(--step-5) + 12px);
+			font-weight: bold;
+		}
+	}
+
+	.noProductions {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		text-decoration: underline;
+
+		font-size: var(--step-3);
+		font-weight: bold;
+	}
+
+	.allProductionsBtn {
+		width: 100%;
+
+		display: flex;
+
+		justify-content: flex-end;
+	}
+}
+
+@media screen and (max-width: 520px) {
+	.productionsList {
+		.subtitle {
+			margin-bottom: 10px;
+
+			h2 {
+				font-size: calc(var(--step-5));
+			}
+		}
+
+		.noProductions {
+			font-size: var(--step-2);
+			margin-bottom: 10px;
+		}
+	}
+}

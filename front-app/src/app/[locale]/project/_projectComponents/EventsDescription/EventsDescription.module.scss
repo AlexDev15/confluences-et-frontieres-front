@@ -1,0 +1,38 @@
+@use "../../../../variables" as *;
+
+.blue {
+	color: $primary-color;
+}
+
+.previousEventsBtn {
+	width: 100%;
+	display: flex;
+	justify-content: flex-end;
+	margin-top: 100px;
+}
+
+.eventsDescription {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+
+	margin-bottom: 35px;
+
+	h2 {
+		font-size: calc(var(--step-5) + 12px);
+		font-weight: bold;
+
+		margin-bottom: 25px;
+	}
+}
+
+@media screen and (max-width: 520px) {
+	.eventsDescription {
+		margin-bottom: 0;
+
+		h2 {
+			font-size: var(--step-5);
+			margin-bottom: 15px;
+		}
+	}
+}

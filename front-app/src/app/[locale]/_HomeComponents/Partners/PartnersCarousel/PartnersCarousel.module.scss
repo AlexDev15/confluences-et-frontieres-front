@@ -1,0 +1,29 @@
+@use "../../../../variables" as *;
+
+.partnersContainer {
+	width: 95%;
+	min-width: 0;
+
+	justify-content: space-between;
+	align-items: center;
+
+	z-index: 0;
+
+	.carousel {
+		display: block;
+	}
+}
+
+@media screen and (max-width: 520px) {
+	.partnersContainer {
+		.carousel {
+			display: none;
+		}
+	}
+}
+
+@media screen and (max-height: 745px) {
+	.partnersContainer {
+		margin-bottom: 50px;
+	}
+}

@@ -1,0 +1,55 @@
+@use "../../../../variables" as *;
+
+.secondColor {
+	color: $primary-color;
+}
+
+.pastEvents {
+    width: 100%;
+
+   padding: 50px 5% 50px 5%;
+
+	// Appliquer le fond principal si pas de prochains événements
+	&.withPrimaryBg {
+		background-color: $primary-color-bg;
+	}
+
+    .subtitle {
+        width: 100%;
+        margin-bottom: 30px;
+
+        display: flex;
+        justify-content: center;
+        text-align: center;
+
+        h2 {
+            font-size: calc(var(--step-5) + 12px);
+            font-weight: bold;
+        }
+    }
+
+    .previousEventsBtn {
+        width: 100%;
+
+        display: flex;
+
+        justify-content: flex-end;
+    }
+}
+
+@media screen and (max-width: 520px) {
+      .pastEvents {
+          .subtitle {
+              margin-bottom: 10px;
+
+              h2 {
+                  font-size: calc(var(--step-5));
+              }
+          }
+
+          .noEvents {
+              font-size: var(--step-2);
+              margin-bottom: 10px;
+          }
+      }
+  }

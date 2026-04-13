@@ -1,0 +1,103 @@
+@use "../../../../../variables" as *;
+
+.mobileList {
+	display: none;
+}
+
+@media screen and (max-width: 1070px) {
+	.mobileList {
+		display: block;
+		margin-top: 20px;
+		margin-bottom: 50px;
+
+		.noEvents {
+			font-size: var(--step-2);
+			text-decoration: underline;
+			text-align: center;
+			font-weight: bold;
+		}
+
+		h3 {
+			color: $primary-color;
+			font-size: var(--step-3);
+			font-weight: bold;
+
+			margin-bottom: 5px;
+		}
+
+		.eventsDateCategory {
+			width: 100%;
+			height: auto;
+			display: flex;
+			flex-direction: column;
+			justify-content: space-between;
+			align-items: left;
+			margin-bottom: 20px;
+
+			.event {
+				width: 100%;
+				min-height: 50px;
+
+				display: flex;
+				flex-direction: column;
+
+				border: 1px solid $primary-color;
+				border-radius: 5px;
+
+				overflow: hidden;
+
+				margin-top: 20px;
+
+				&:hover {
+					cursor: pointer;
+				}
+
+				&:first-child {
+					margin-top: 0;
+				}
+
+				h4 {
+					width: 100%;
+
+					font-size: var(--step-1);
+					font-weight: bold;
+
+					margin-top: 5px;
+					margin-left: 5px;
+				}
+
+				p {
+					width: fit-content;
+					align-self: flex-end;
+
+					font-weight: 300;
+					font-size: var(--step-0);
+					text-align: right;
+					margin-right: 5px;
+					margin-top: 10px;
+					margin-bottom: 5px;
+					
+
+					&:hover {
+						cursor: pointer;
+
+						text-decoration: underline;
+					}
+				}
+
+				.bottom {
+					background-color: aqua;
+					height: 10px;
+					width: 100%;
+				}
+			}
+		}
+	}
+}
+
+@media screen and (max-width: 520px) {
+	.mobileList {
+		display: block;
+		margin-bottom: 100px;
+	}
+}

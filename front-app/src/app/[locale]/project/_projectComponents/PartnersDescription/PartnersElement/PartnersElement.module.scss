@@ -1,0 +1,92 @@
+@use "../../../../../variables" as *;
+
+.partnersElement {
+	width: 90%;
+	height: 250px;
+
+	position: relative;
+
+	background-position: center;
+	background-size: cover;
+
+	margin-bottom: 10px;
+
+	border-radius: 5px;
+
+	overflow: hidden;
+
+	div {
+		width: 100%;
+		height: 100%;
+
+		position: absolute;
+
+		bottom: 0;
+
+		background-color: rgba(0, 0, 0, 0.45);
+
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+
+		border-bottom-left-radius: 5px;
+		border-bottom-right-radius: 5px;
+
+		padding-top: 5px;
+
+		transform: translateY(82%);
+
+		transition: transform 0.3s ease-in-out;
+
+		.bar {
+			width: 90%;
+			height: 1px;
+
+			border: 1px solid $text-color;
+			border-radius: 2px;
+		}
+
+		.partnerInformations {
+			width: 100%;
+			height: 40px;
+
+			display: flex;
+			align-items: center;
+
+			p {
+				color: $text-color;
+				font-size: var(--step-0);
+				font-weight: bold;
+				margin: 0;
+			}
+
+			img {
+				max-width: 40px;
+				width: 25%;
+				height: 65%;
+
+				margin-left: 10px;
+				margin-right: 10px;
+			}
+		}
+	}
+
+	&:hover {
+		div {
+			transform: translateY(0%);
+		}
+	}
+}
+
+.button {
+	margin: auto;
+}
+
+@media screen and (max-width: 520px) {
+	.partnersElement {
+		margin-left: auto;
+		margin-right: auto;
+
+		border-radius: 3px;
+	}
+}

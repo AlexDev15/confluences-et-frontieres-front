@@ -1,0 +1,26 @@
+@use "../../app/variables" as *;
+
+.themeToggle {
+  padding: 10px 20px;
+  border: 2px solid $primary-color;
+  border-radius: 8px;
+  background-color: $primary-color;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  transition:
+    transform 0.2s ease,
+    box-shadow 0.2s ease,
+    background-color var(--theme-transition-duration) ease-in-out,
+    border-color var(--theme-transition-duration) ease-in-out;
+  font-size: var(--step-0);
+
+  &:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+
+  &:active {
+    transform: scale(0.95);
+  }
+}

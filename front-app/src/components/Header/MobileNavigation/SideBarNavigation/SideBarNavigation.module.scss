@@ -1,0 +1,53 @@
+@use "../../../../app/variables" as *;
+
+.open {
+	transform: translateX(0px) !important;
+	transition: transform 0.3s;
+}
+
+.button {
+	font-size: var(--step-1);
+}
+
+.sideBar {
+	position: absolute;
+	top: 85px;
+	right: 0;
+	transform: translateX(300px);
+	transition: transform 0.3s;
+
+	min-width: 300px;
+	height: calc(100dvh - 85px);
+
+	border-left: 5px $primary-color solid;
+
+	background-color: white;
+
+	padding-top: 20px;
+	padding-bottom: 20px;
+
+	overflow-y: auto;
+
+	text-align: center;
+
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+
+	li {
+		margin-top: 20px;
+		user-select: none;
+
+		&:last-child {
+			margin-bottom: 20px;
+		}
+	}
+}
+
+@media screen and (max-height: 420px) {
+	.sideBar {
+		padding: 0;
+		padding-bottom: 5px;
+	}
+}

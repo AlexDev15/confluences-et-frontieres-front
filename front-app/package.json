@@ -1,27 +1,52 @@
 {
-  "name": "confluences-et-frontieres",
-  "version": "0.0.1",
-  "private": true,
-  "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
-    "lint": "eslint"
-  },
-  "dependencies": {
-    "@next/env": "^16.2.0",
-    "next": "16.2.0",
-    "react": "19.2.4",
-    "react-dom": "19.2.4"
-  },
-  "devDependencies": {
-    "@tailwindcss/postcss": "^4",
-    "@types/node": "^20",
-    "@types/react": "^19",
-    "@types/react-dom": "^19",
-    "eslint": "^9",
-    "eslint-config-next": "16.2.0",
-    "tailwindcss": "^4",
-    "typescript": "^5"
-  }
+	"name": "confluences_et_frontieres",
+	"version": "0.1.0",
+	"private": true,
+	"scripts": {
+		"dev": "../../../OLD_Confront/front/node_modules/.bin/next dev",
+		"build": "../../../OLD_Confront/front/node_modules/.bin/next build",
+		"start": "../../../OLD_Confront/front/node_modules/.bin/next start",
+		"lint": "../../../OLD_Confront/front/node_modules/.bin/next lint"
+	},
+	"dependencies": {
+		"@fortawesome/fontawesome-svg-core": "^6.5.2",
+		"@fortawesome/free-brands-svg-icons": "^6.5.2",
+		"@fortawesome/free-regular-svg-icons": "^6.5.2",
+		"@fortawesome/free-solid-svg-icons": "^6.5.2",
+		"@fortawesome/react-fontawesome": "^0.2.0",
+		"@fullcalendar/core": "^6.1.11",
+		"@fullcalendar/daygrid": "^6.1.11",
+		"@fullcalendar/moment": "^6.1.11",
+		"@fullcalendar/react": "^6.1.11",
+		"@fullcalendar/timegrid": "^6.1.11",
+		"@react-google-maps/api": "^2.19.3",
+		"framer-motion": "^11.1.7",
+		"next": "^14.2.1",
+		"next-intl": "^3.11.3",
+		"react": "^18",
+		"react-dom": "^18",
+		"react-intersection-observer": "^9.10.2",
+		"react-paginate": "^8.2.0",
+		"react-select": "^5.8.0",
+		"react-slick": "^0.30.2",
+		"sass": "^1.75.0",
+		"sharp": "^0.33.4",
+		"slick-carousel": "^1.8.1",
+		"string-to-color": "^2.2.2",
+		"tinycolor2": "^1.6.0",
+		"utopia-core-scss": "^1.0.1"
+	},
+	"devDependencies": {
+		"@types/node": "^20",
+		"@types/react": "^18",
+		"@types/react-big-calendar": "^1.8.9",
+		"@types/react-dom": "^18",
+		"@types/react-slick": "^0.23.13",
+		"@types/tinycolor2": "^1.4.6",
+		"eslint": "^8",
+		"eslint-config-next": "14.2.1",
+		"postcss": "^8",
+		"tailwindcss": "^3.4.1",
+		"typescript": "^5"
+	}
 }

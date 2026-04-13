@@ -1,0 +1,10 @@
+@use "../../../../variables" as *;
+
+.activityElements {
+  width: 25%;
+
+  border: $primary-color solid 3px;
+  border-radius: 8px;
+
+  aspect-ratio: 16/9;
+}

@@ -1,0 +1,54 @@
+@use "../../../app/variables" as *;
+
+.button {
+	font-size: var(--step-0);
+	font-weight: 300;
+}
+
+.links {
+	width: 90%;
+
+	margin-top: 20px;
+
+	padding-top: 10px;
+
+	margin-left: auto;
+	margin-right: auto;
+
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+
+	border-top: 2px solid $text-color;
+
+	font-size: var(--step-0);
+
+	.linksList {
+		flex-grow: 1;
+
+		display: flex;
+		justify-content: space-evenly;
+		align-items: center;
+	}
+}
+
+@media screen and (max-width: 1168px) {
+	.links {
+		flex-direction: column;
+		align-items: center;
+
+		.linksList {
+			flex-direction: column;
+			align-items: center;
+
+			li {
+				margin-top: 5px;
+				margin-bottom: 5px;
+			}
+		}
+		p {
+			margin-top: 5px;
+			margin-bottom: 5px;
+		}
+	}
+}

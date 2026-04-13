@@ -1,0 +1,78 @@
+@import "../../../app/[locale]/globals.css";
+
+.react-select__control {
+	width: 240px;
+	height: 50px;
+	position: relative;
+
+	background-color: white !important;
+	color: var(--theme-color) !important;
+
+	border-radius: 0px !important;
+	border: 2px solid var(--theme-color) !important;
+	letter-spacing: var(--text-font-space) !important;
+
+	&:focus {
+		border: 2px solid var(--theme-color) !important;
+		cursor: pointer !important;
+	}
+
+	&:hover {
+		border: 2px solid var(--theme-color) !important;
+		cursor: pointer !important;
+	}
+}
+
+.react-select__option {
+	height: 50px;
+	display: flex !important;
+	align-items: center !important;
+
+	cursor: pointer !important;
+
+	color: var(--theme-color) !important;
+	background-color: var(--text-color) !important;
+
+	font-size: var(--step-0) !important;
+	font-weight: bold;
+	letter-spacing: var(--text-font-space) !important;
+
+	&:hover {
+		background-color: var(--theme-color) !important;
+		color: var(--text-color) !important;
+	}
+}
+
+.react-select__placeholder {
+	color: var(--theme-color) !important;
+	font-weight: lighter !important;
+	letter-spacing: var(--text-font-space) !important;
+}
+
+.react-select__menu {
+	overflow: auto;
+}
+
+.react-select__single-value {
+	color: var(--theme-color) !important;
+	font-weight: bold !important;
+	letter-spacing: var(--text-font-space) !important;
+	font-size: var(--step-0) !important;
+}
+
+.react-select__indicator {
+	color: var(--theme-color) !important;
+	background-color: "white" !important;
+}
+
+.react-select__indicator-separator {
+	background-color: var(--theme-color) !important;
+	border-color: var(--theme-color) !important;
+	display: none !important;
+}
+
+@media screen and (max-height: 400px) {
+	.react-select__menu {
+		max-height: 150px;
+	}
+}

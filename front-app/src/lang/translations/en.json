@@ -1,0 +1,410 @@
+{
+	"Header": {
+		"Home": "Home",
+		"Partners": "Partners",
+		"Project": "The Project",
+		"Events": "Events",
+		"Productions": "Productions",
+		"Contact": "Contact Us",
+		"LogoDescription": "Logo of the Confluences & Borders association",
+
+		"LanguageSelector": {
+			"fr": "French",
+			"en": "English",
+			"pt": "Portuguese",
+			"es": "Spanish",
+			"gl": "Galicen"
+		},
+
+		"Country": {
+			"France": "France",
+			"Portugal": "Portugal",
+			"Italy": "Italy",
+			"Romania": "Romania",
+			"Spain": "Spain",
+			"Galicen": "Galicia"
+		},
+
+		"FlagsDescriptions": {
+			"fr": "Flag of France",
+			"fr-br": "Flag of Brittany",
+			"ro": "Flag of Romania",
+			"it": "Flag of Italy",
+			"en": "Flag of England",
+			"pt": "Flag of Portugal",
+			"es": "Flag of Spain",
+			"gl": "Flag of Galicia"
+		}
+	},
+	"Footer": {
+		"Association": {
+			"Description": "Association of enthusiasts, developers and experts.",
+			"ONG": "Non-Governmental Organization (NGO).",
+			"MoreInformations": "For more information:",
+			"LogoDescription": "Logo of the INTER+VALUE association"
+		},
+		"SocialNetworks": {
+			"Title": "Our Social Networks"
+		},
+		"Contacts": {
+			"Title": "Our Contacts",
+			"SocialPlace": "Headquarters",
+			"Annexe": "Annex",
+			"Email": "Email"
+		},
+		"Links": {
+			"SiteMap": "Site Map",
+			"Licenses": "Licenses",
+			"LegalMentions": "Legal Mentions",
+			"CGUV": "General Terms and Conditions of Use",
+			"Cookies": "Set up cookies",
+			"Copyright": "© 2024 INTER+VALUE Association"
+		}
+	},
+	"Pages": {
+		"Home": {
+			"ProjectDescription": {
+				"Title": "Confluences & Borders",
+				"Description": "CONFLUENCES & BORDERS is an intercultural exchange project proposed from 2023 onwards through partnerships involving INTER+VALUE, an association founded in Brittany (France), and various European entities such as associations, local governments, schools, etc., which engage their respective territories or fields of action and their populations or audiences.",
+				"Discover": "Discover"
+			},
+			"Partners": {
+				"Title": "Partners",
+				"Description": "Organizations and regions that have joined the project.",
+				"LearnMore": "Learn more"
+			},
+			"Map": {
+				"Search": {
+					"Placeholder": "Search for a partner",
+					"NotFound": "No partner found"
+				}
+			}
+		},
+		"Events": {
+			"Title": {
+				"Prefix": "",
+				"Content": "Events"
+			},
+			"lastUpdate": "Updated on {date}",
+			"MainImageDescription": "Image from the first biennale of Vimioso.",
+			"NextEvents": {
+				"Prefix": "Upcoming",
+				"Content": "events",
+				"Description": "Discover all our upcoming events.",
+				"Nothing": "No upcoming events",
+				"Nothing1": "There are no events planned for the near future.",
+				"Nothing2": "Check back later to see if new events have been added."
+			},
+			"PastEvents": {
+				"Prefix": "Events",
+				"Content": "completed",
+				"Description": "Discover all our completed events.",
+				"Nothing1": "No events have been listed on this page.",
+				"Nothing2": "Come back later to see if new events have been added."
+			},
+			"Individual": {
+				"AlreadyPassed": "This event has already passed.",
+				"Coming": "This event is coming up.",
+				"OrganisationDate": "Organised on: {date}.",
+				"ProgramAvailable": "A program is available, feel free to download it here!",
+				"ProgramUnavailable": "The program for this event is not yet available. Come back later to download it.",
+				"Download": "Download",
+				"MoreDetails": "More details",
+				"Details": {
+					"Title": "Details",
+					"MoreDetailsSubtitle": "Learn more",
+					"MoreDetailsDescription": "Download the document to learn more about the event you are viewing.",
+					"LinkedEventsSubtitle": "Productions related to this event"
+				}
+			},
+			"Calendar": {
+				"Days": {
+					"Monday": "Monday",
+					"Tuesday": "Tuesday",
+					"Wednesday": "Wednesday",
+					"Thursday": "Thursday",
+					"Friday": "Friday",
+					"Saturday": "Saturday",
+					"Sunday": "Sunday"
+				},
+				"NoEvents": "No events are planned for {month} {year}."
+			},
+			"NotFound1": "No events have been found at the moment.",
+			"NotFound2": "Try another search or come back later.",
+			"Placeholder": "Search for an event...",
+			"MoreEvents": "More events",
+			"LearnMore": "Learn More",
+			"Download": "Download Program"
+		},
+		"Productions": {
+			"Title": {
+				"Prefix": "",
+				"Content": "Productions"
+			},
+			"AllProductions": {
+				"Title": {
+					"Prefix": "All our",
+					"Content": "productions"
+				},
+				"Description": "Discover all our productions.",
+				"Placeholder": "Search for a production..."
+			},
+			"Individual": {
+				"OrganisationDate": "Production finished on: {date}.",
+				"Details": {
+					"MoreDetailsDescription": "Download the document to learn more about the production you are currently viewing."
+				}
+			},
+			"LearnMore": "Learn More",
+			"lastUpdate": "Last update on {date}",
+			"MainImageDescription": "Image of the first biennial of Vimioso.",
+			"NotFound1": "No production found at the moment.",
+			"NotFound2": "Try another search or come back later.",
+			"Nothing1": "There are no productions yet.",
+			"Nothing2": "Come back later to see if new productions have been added.",
+			"MoreProductions": "More productions"
+		},
+		"Partners": {
+			"part": {
+				"Prefix": "Its place",
+				"Content": "in the project"
+			},
+			"event": {
+				"Prefix": "",
+				"Content": "Events"
+			}
+		},
+		"Project": {
+			"MainDescription": {
+				"Description": "Designed and established from an agreement between INTER+VALUE and the Portuguese municipality of Vimioso, the project aims to be a multi-year program carried by involved citizens and territories who want to make their culture and heritage known and valued."
+			},
+			"ProjectDescription": {
+				"Title": {
+					"Prefix": "The",
+					"Content": "project"
+				},
+				"Description": "Designed from an agreement between INTER+VALUE and the Portuguese municipality of Vimioso, the project unfolds as a multi-year program driven by engaged citizens and territories aiming to promote and enhance their culture and heritage. This initiative seeks to give them local, regional, national, and primarily European visibility. Looking towards the future and its challenges, this project fosters solidarity among citizens and territories, motivating, facilitating, and justifying the launch, objectives, and ambitions of the program, ensuring its sustainability."
+			},
+			"HisName": {
+				"Title": {
+					"Prefix": "Its",
+					"Content": "name"
+				},
+				"Description": "The name CONFLUENCES & BORDERS was inspired by the desire for knowledge and dissemination, thanks to exchanges, of the cultures and heritages of the territories involved in the project. However, these cultures and heritages are the result of various influences which, by succeeding and crossing each other, have contributed to their millennial construction. For centuries and until now, borders, both physical and mental, have conditioned historical, geographical, economic, political, social, etc. relations. By highlighting their existence and role, this project will try to help overcome them."
+			},
+			"PartnersDescription": {
+				"Title": {
+					"Prefix": "Our",
+					"Content": "partnerships"
+				},
+				"ImageDescription": "Logo of the municipality of Vimioso.",
+				"Description1": "The first partnership agreement was reached in 2022 between the non-governmental organization INTER+VALUE and the municipality of Vimioso (Portugal). The organization of a biennial international congress proposed by the association served as the foundation for the partnership and the expanded project known as CONFLUENCES & BORDERS.",
+				"Description2": "Presented by INTER+VALUE to some of its educational partners and local authorities in Brittany (France), Galicia (Spain), Tuscany (Italy), Trás-os-Montes (Portugal), and Romania, the project has garnered the support of various entities (associations, local governments, educational institutions) with which partnership agreements are being formalized.",
+				"SubTitle": "All partners:"
+			},
+			"MainActivity": {
+				"Title": "ACTIVITIES, PRODUCTIONS AND CONTENTS",
+				"Description": "The project carries the desire to make known, enhance and disseminate, beyond the usual interlocutors-receivers, the culture and heritage of the individuals and territories concerned, by organizing them around the framework determined by its title, without exclusion of a thematic or disciplinary field. It must give rise to concrete actions (activities, exchanges, ...) and correlated productions, ideally carried or shared by associative, institutional or professional actors and involved citizens, in a spirit of solidarity turned towards the future and its challenges."
+			},
+			"ObjectifsDescription": {
+				"Title": {
+					"Prefix": "Our",
+					"Content": "objectives"
+				},
+				"Description": "The projected meetings, events and productions aim to:",
+				"List": {
+					"1": "share content related to the knowledge and enhancement of culture and heritage, in any thematic or disciplinary field - such as languages, arts, knowledge, traditions, history, archaeology, geography, economy, sociology, migrations, diasporas, communities, etc. - and taking into account the orientation induced by the title CONFLUENCES & BORDERS.",
+					"2": "debate issues of cultural and economic development and local and, more broadly, European cross-border relations, particularly in the context of remoteness and rural depopulation.",
+					"3": "involve the search for innovative solutions for the future development of the considered territory(ies)."
+				}
+			},
+			"MainBiennaleDescription": {
+				"Title": "INTERCULTURAL BIENNIALS",
+				"Description": "Organized in Vimioso for the first time in the fall of 2023 by INTER+VALUE and the local municipality which provides the active help of its services and its total support in logistical resources and infrastructure fabric, the first event will be named BIENNIAL because it is planned to renew it in a biannual cycle."
+			},
+			"ActivitiesDescription": {
+				"Title": {
+					"Prefix": "The",
+					"Content": "Activities"
+				},
+				"List": {
+					"1": "An international, intercultural and multilingual congress, around the theme CONFLUENCES & BORDERS.",
+					"2": "Exhibitions of artistic works (paintings, photos and other works made for the event), literary (books and texts by authors from the region) and religious (local statuary).",
+					"3": "An animation space with a market and workshops of local specialties (crafts, gastronomy...) and literature (Day of the book and regional literature).",
+					"4": "The inauguration of mural frescoes, made by international artists, and a workshop to introduce this street art.",
+					"5": "Cultural and recreational activities (music, cinema, discovery of local flora and fauna, health trails).",
+					"6": "Visits to museums, localities and remarkable sites of the municipality and its surroundings.",
+					"7": "Times of convivial and informal sharing between participants.",
+					"8": "Educational meetings around a European exchange program.",
+					"9": "The publication of a multilingual magazine around the event and the various activities and productions carried out or induced."
+				}
+			}
+		},
+		"Contacts": {
+			"Title": {
+				"Prefix": "Contact",
+				"Content": "us"
+			},
+			"Name": "Name",
+			"Location": "Address",
+			"Site": "Site",
+			"Email": "Email",
+			"SecondTitle": {
+				"Prefix": "Contact our",
+				"Content": "partners"
+			}
+		},
+		"NotFound": {
+			"Title": "Page not found",
+			"Button": "Back to home"
+		},
+		"LegalMentions": {
+			"Title": "Legal Mentions",
+			"France": "France",
+			"Developer": "Developer",
+			"Director": "Director",
+			"ContentAnimator": "Content Animator"
+		},
+		"Licenses": {
+			"Title": "Licenses",
+			"ScriptsTitle": "Script Licenses",
+			"Scripts": "Scripts",
+			"Licenses": "Licenses",
+			"Authors": "Authors"
+		},
+		"SitePlan": {
+			"Title": "Site map",
+			"Home": "Home",
+			"ProjectDescription": "Project description",
+			"PartnersDescription": "Partners presentation",
+			"Map": "Partners map",
+			"Partners": "The partners",
+			"Project": "The project",
+			"Events": "Events",
+			"PastEvents": "Past events",
+			"NextEvents": "Upcoming events",
+			"Productions": "Productions",
+			"ProductionsList": "Productions list",
+			"Contacts": "Contacts"
+		}
+	},
+	"Events": {
+		"la-premiere-biennale-interculturelle-de-vimioso": {
+			"name": "The First Intercultural Biennial of Vimioso",
+			"description": "Organized in Vimioso in the fall of 2023 by INTER+VALUE and the local municipality, which provides the active help of its services and its total support in logistical resources and infrastructure fabric, the first event will be named BIENNIAL because it is planned to renew it on a biennial cycle."
+		},
+		"rencontre-d-orchestres-philarmoniques": {
+			"name": "Meeting of Philharmonic Orchestras",
+			"description": "The fourth evening of the 2023 Vimioso Biennale was animated by the encounter of two orchestras: A Lira (The Lyre) from Ribadavia (Galicia, Spain), which traveled 275 km from its hometown to perform in Vimioso, and the Banda Filarmónica de Bragança (Philharmonic Orchestra of Bragança), coming from the district capital located about fifty kilometers away. The two orchestras took turns playing various well-known musical pieces, captivating the large audience composed of Galicians and Portuguese who came to admire and support them. Starting off quietly, they gradually stirred increasing enthusiasm among the audience before culminating in a grand finale. The final piece, played in unison by both philharmonics under the expert direction of their conductors, was reprised, requested again, and received standing ovations from a thoroughly captivated audience."
+		},
+		"traos-montes-exposition-de-photos-a-la-mir": {
+			"name": "Trás-os-Montes - Photo Exhibition at the MIR",
+			"description": "Organized in Vimioso in the fall of 2023 by INTER+VALUE and the local municipality, which provides the active help of its services and its total support in logistical resources and infrastructure fabric, the first event will be named BIENNIAL as it is planned to be renewed on a biennial cycle."
+		},
+		"nouvelles-fresques-murales-a-bruz": {
+			"name": "New Murals in Bruz",
+			"description": "Benefiting from a municipal budget granted by the Citizen Committee for Cultural Life of Bruz, INTER+VALUE has chosen this city in Brittany as a platform for street art, carrying cultural and heritage values highlighted by the Confluences & Frontiers project. Chilean artist Allan Halley, who has already made his mark on the walls of Vimioso, Portugal, in 2023, will paint four murals in Bruz between early June and late September 2024. First, a large mural will be created in the city center on an exterior wall of the Grand Logis performance hall; then, the schools in the Vert-Buisson district will receive a second creation with the participation of students. In September, two more murals will follow..."
+		},
+		"joias-vales-de-vimioso-exposition-de-bijoux-de-manuela-ferraz": {
+			"name": "Joias Vales de Vimioso: Exhibition of Jewelry by Manuela Ferraz",
+			"description": "Organized in Vimioso in the fall of 2023 by INTER+VALUE and the local municipality, which provides the active help of its services and its total support in logistical resources and infrastructure fabric, the first event will be named BIENNIAL as it is planned to be renewed on a biennial cycle."
+		},
+		"poetas-exposition-de-portraits-peints-de-carla-mendes": {
+			"name": "Poetas - Exhibition of Painted Portraits by Carla Mendes",
+			"description": "The Lisbon artist Carla Mendes Côrte-Real created 45 painted portraits of famous Portuguese poets to exhibit for two months at the House of Culture in Vimioso during the 1st Intercultural, Cross-border, and European Biennale held in this town in northeastern Portugal. The exhibition was inaugurated on the morning of April 27 in the presence of municipal authorities, the INTER+VALUE team, the local public, and many French visitors from Brittany who traveled for the event. The inauguration featured speeches, poetry readings or recitations, and musical performances by the group D'Alma Fado, consisting of a singer and two guitarists from the neighboring city of Bragança."
+		},
+		"1er-congres-international-interculturel-et-plurilingue": {
+			"name": "1st International, Intercultural and Multilingual Congress",
+			"description": "One of the key events of the 1st Vimioso Biennale is the three-day International, Intercultural, and Multilingual Congress starting on September 28, 2024. It will bring together speakers and participants from Portugal, Galicia, and Brittany. The topics discussed will revolve around the Confluences & Frontières project: understanding and promoting local cultures and heritages, cultural influences, borders (physical, historical, geographical, economic, political, social, mental...). All disciplines related to these themes will be addressed during the congress."
+		},
+		"1ere-biennale-interculturelle-transfrontaliere-et-europeenne-de-vimioso": {
+			"name": "1st Intercultural, Cross-Border, and European Biennale of Vimioso",
+			"description": "Conceived by Manuel de Lima, president of INTER+VALUE, and organized in Vimioso in autumn 2023 by the association and the local municipality, which provides active support through its services and logistical resources, the first major event of Confluences & Frontières is named Biennale, suggested by the mayor of Vimioso, Jorge Fidalgo, as it is planned to be held every two years. The qualifiers intercultural, cross-border, and European specify its goals and define the frameworks within which it operates."
+		},
+		"traos-montes-exposition-de-photos-d-eduardo-perez": {
+			"name": "Trás-os-Montes - Photo Exhibition by Eduardo Perez",
+			"description": "Organized in Vimioso in the fall of 2023 by INTER+VALUE and the local municipality, which provides the active help of its services and its total support in logistical resources and infrastructure fabric, the first event will be named BIENNIAL as it is planned to be renewed on a biennial cycle."
+		},
+		"1ere-biennale-interculturelle-transfrontaliere-et-europeenne-de-ribadavia": {
+			"name": "1st Intercultural, Cross-Border, and European Biennale of Ribadavia",
+			"description": "Like Vimioso, Ribadavia aims to hold an intercultural, cross-border, and European Biennale. The first edition is scheduled to take place over three days at the end of October 2024. It will be organized by the municipality, with the active contribution of its services and support in logistical resources and infrastructure network, and INTER+VALUE, which will provide its expertise, network of relations, and participation of Breton and Portuguese speakers."
+		},
+		"inauguration-d-une-grande-fresque-murale-dediee-aux-soeurs-chouzas": {
+			"name": "Inauguration of a Large Mural Dedicated to the Touzas sisters",
+			"description": "Organized in Vimioso in the fall of 2023 by INTER+VALUE and the local municipality, which provides the active help of its services and its total support in logistical resources and infrastructure fabric, the first event will be named BIENNIAL as it is planned to be renewed on a biennial cycle."
+		}
+	},
+	"Partners": {
+		"Bretagne": {
+			"location": "Region of France",
+			"description": "The capital of Brittany, Rennes is a city founded in the 2nd century BC and has preserved its distinctive medieval architectural style throughout the centuries. This city, home to over 200,000 residents, is known for its green spaces, cultural facilities, and modern infrastructure."
+		},
+		"Rennes": {
+			"location": "City",
+			"secondLocation": "Brittany",
+			"thirdLocation": "France",
+			"description": "Rennes is the capital of Brittany, a former province and current region in northwestern France located on the European Atlantic Arc. The city has about 225,000 residents, but its metropolitan area includes more than 770,000 people. Since the late 20th century, it has become an important economic hub focused on digital and new technologies. It is one of the major student cities in France, with nearly 66,000 students. Labeled as a City of Art and History, Rennes has preserved significant medieval and classical heritage in its historic center."
+		},
+		"Vimioso": {
+			"location": "Municipality",
+			"secondLocation": "Trás-os-Montes",
+			"thirdLocation": "Portugal",
+			"description": "Vimioso is a municipality in northeastern Portugal, part of the Trás-os-Montes intermunicipal community located in the Bragança district, near the Spanish border. Its historical heritage blends harmoniously with its hilly landscapes, interspersed with rivers and steep banks, offering a wide range of outdoor activities. Local crafts and gastronomy, highlighting regional products, along with the quality of life, make Vimioso an ideal destination where nature, the slow rhythm of the seasons, and centuries-old traditions remain preserved and authentic.",
+			"List": {
+				"Municipality of Vimioso": {
+					"name": "Municipality of Vimioso",
+					"description": "The Vimioso Town Hall is the historical partner of the Confluences & Borders project, as it was after a discussion in 2022 between Manuel de Lima, president of INTER+VALUE, and Jorge Fidalgo, mayor of Vimioso, that the project was created, leading to its first major event: the Intercultural, Cross-Border, and International Biennale of Vimioso.",
+					"part": "The Vimioso Town Hall plays a crucial role in supporting and funding the Biennial and various activities, creations, and productions, ensuring their realization and dissemination beyond its territory. By assuming this pioneering role, it demonstrates its commitment to the cultural and artistic development of the region and its desire to ensure their widespread diffusion. In addition to financial resources, the Vimioso Town Hall provides logistical and organizational support, contributing to the success of the event and related actions. Its active involvement and investment in the 1st Biennial had a catalytic effect on other partners who, after attending or collaborating in the organization of the event, were convinced of the positive impact of such a project on the local community and decided to get involved in organizing similar events in their own territories.",
+					"event": "The first local event related to the Confluences & Frontiers project was the realization, in August 2022, of an exhibition of works by photographer Eduardo Perez entitled Trás-os-Montes. The following year, in the spring, Chilean mural artists Jotapé and Allan Halley created a series of murals in the heart of the town. In the fall of 2023, organized by INTER+VALUE and the Vimioso Town Hall, the first major event of Confluences & Frontiers took place over eight days under the name of the 1st Intercultural, Cross-border, and European Biennial of Vimioso. Various productions were created on this occasion (paintings, jewelry, albums, videos...). The dates for the 2nd Biennial are already scheduled: it will take place at the end of April 2025."
+				}
+			}
+		},
+		"Bruz": {
+			"location": "Commune",
+			"secondLocation": "Brittany",
+			"thirdLocation": "France",
+			"description": "Bruz is a commune in Brittany located in the Ille-et-Vilaine department. It is one of the 43 communes that make up Rennes Métropole. Formerly the residence of the bishops of Rennes, it is bordered by the Vilaine River and still has several castles and manor houses within its territory. Allied bombing in 1944 completely destroyed the town center and profoundly transformed its appearance. Predominantly rural until the mid-20th century, it is heavily influenced by its proximity to Rennes, which is only 13 km away. There are many monuments, cultural or sports facilities, and businesses in Bruz, as well as significant structures of the metropolitan area such as the Ker Lann campus, which houses companies and higher education institutions, and the Rennes Exhibition Park. Since the late 20th century, its population has grown significantly, reaching about 20,000 inhabitants today."
+		},
+		"Prato": {
+			"location": "Municipality",
+			"secondLocation": "Tuscany",
+			"thirdLocation": "Italy",
+			"description": "Nestled in Tuscany, in the heart of Italy, Prato is a dynamic and historic city. The second-largest city in the region after Florence, Prato is famous for its rich cultural heritage, world-renowned textiles, and lively atmosphere. Its medieval center, with cobblestone streets and historic buildings, reflects its prosperous past as a commercial and artistic hub."
+		},
+		"Iaşi": {
+			"location": "Municipality",
+			"secondLocation": "Moldavia",
+			"thirdLocation": "Romania",
+			"description": "Located in northeastern Romania, Iași is the second-largest city in the country and a cultural and historical gem. Known for its rich architectural heritage, Orthodox churches, and magnificent palaces, it offers an immersion into Romanian history."
+		},
+		"Ribadavia": {
+			"location": "Municipality",
+			"secondLocation": "Galicia",
+			"thirdLocation": "Spain",
+			"description": "In the region of Galicia, in northwestern Spain, Ribadavia emerges as a small town steeped in history and charm. The former capital of the Kingdom of Galicia in the Middle Ages, Ribadavia is at the heart of a renowned wine-growing region. Its beautiful historic center, where medieval remains, churches, and old houses intermingle with cobblestone streets, testifies to its rich past.",
+			"List": {
+				"Ribadavia Town Hall": {
+					"name": "Municipality of Ribadavia",
+					"description": "The Ribadavia Town Hall is a key player in local life. With its strong commitment to cultural and social development, it plays a central role in promoting the culture and arts of the autonomous community of Galicia. Led by a dedicated team, the Ribadavia Town Hall actively works to enrich the life of the local community and strengthen ties with other communities, both regionally and internationally. Its participation in the Confluences & Frontiers project demonstrates its openness to cross-border and European cooperation and its desire to foster enriching cultural exchanges.",
+					"part": "The Ribadavia Town Hall joined the project after establishing links with INTER+VALUE in 2023 and closely observing the success and impact of the 1st Biennial of Vimioso. Witnessing the positive cultural, tourism, and local development outcomes that this event brought to Vimioso, Ribadavia saw an opportunity for mutually beneficial collaboration. This decision reflects its commitment to invigorating its own cultural scene and strengthening its ties with other communities, both regionally and internationally. By organizing its own biennial in October 2024, Ribadavia is engaging in cross-border and European cultural cooperation and exchanges, affirming its commitment to the Confluences & Frontiers project and its vision of sustainable and enriching collaboration between Brittany, Galicia, and northern Portugal.",
+					"event": "The first local event related to the Confluences & Frontiers project was the creation of a large mural, which was inaugurated on March 8, 2023, in the presence of INTER+VALUE. Like Vimioso, Ribadavia plans to organize an Intercultural, Cross-border, and European Biennial. The first will take place over three days at the end of October 2024."
+				}
+			}
+		}
+	},
+	"Productions": {
+		"la-premiere-creation-muralle-de-vimioso": {
+			"name": "The First Intercultural Biennale of Vimioso",
+			"description": "Organized in Vimioso in the fall of 2023 by INTER+VALUE and the local municipality, which provides active support through its services and full logistical resources, the first event is named BIENNALE as it is planned to be renewed on a biennial cycle."
+		}
+	},
+	"Others": {
+		"ImageOf": "Image of {something}",
+		"ScrollToSeeMore": "Scroll to see more",
+
+		"DevPopup": {
+			"1": "The site is still under development, so one or more pages may not be fully completed.",
+			"2": "Thank you for your understanding!"
+		}
+	}
+}

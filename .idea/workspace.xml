@@ -5,7 +5,50 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f9066963-514a-4e24-8a21-1e897c0a8110" name="Changes" comment="chore(project): initialization of project.">
+      <change afterPath="$PROJECT_DIR$/front-app/.eslintrc.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front-app/next.config.mjs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front-app/tailwind.config.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front-app/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/front-app/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front-app/CLAUDE.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front-app/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front-app/app/[lang]/dictionaries.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front-app/app/[lang]/page.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front-app/app/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front-app/app/globals.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front-app/app/layout.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front-app/dictionaries/en.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front-app/dictionaries/fr.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front-app/dictionaries/gl.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front-app/dictionaries/it.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front-app/dictionaries/pt.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front-app/eslint.config.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front-app/next.config.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front-app/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/front-app/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front-app/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/front-app/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front-app/postcss.config.mjs" beforeDir="false" afterPath="$PROJECT_DIR$/front-app/postcss.config.mjs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front-app/proxy.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front-app/public/file.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front-app/public/globe.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front-app/public/next.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front-app/public/vercel.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front-app/public/window.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front-app/services/articles.service.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front-app/services/auth.service.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front-app/services/client/errors.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front-app/services/client/http-client.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front-app/services/client/index.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front-app/services/index.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front-app/services/partners.service.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front-app/services/types/api.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front-app/services/types/articles.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front-app/services/types/auth.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front-app/services/types/index.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front-app/services/types/partners.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front-app/services/types/upload.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front-app/services/upload.service.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front-app/services/users.service.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front-app/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/front-app/tsconfig.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,6 +64,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="feat/ui-kit" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
@@ -43,31 +91,31 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Makefile Target.build.executor&quot;: &quot;Run&quot;,
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
-    &quot;com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;javascript.preferred.runtime.type.id&quot;: &quot;node&quot;,
-    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/alexi/Documents/DevlopAndMe/Projects/INTER+VALUE/confluences-et-frontieres/confluences-et-frontieres-front&quot;,
-    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
-    &quot;to.speed.mode.migration.done&quot;: &quot;true&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;C:\\Users\\alexi\\Documents\\DevlopAndMe\\Projects\\INTER+VALUE\\confluences-et-frontieres\\confluences-et-frontieres-front\\front-app\\node_modules\\typescript\\lib&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Makefile Target.build.executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "javascript.preferred.runtime.type.id": "node",
+    "junie.onboarding.icon.badge.shown": "true",
+    "last_opened_file_path": "C:/Users/alexi/Documents/DevlopAndMe/Projects/INTER+VALUE/confluences-et-frontieres/confluences-et-frontieres-front/front-app",
+    "list.type.of.created.stylesheet": "CSS",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.lookFeel",
+    "to.speed.mode.migration.done": "true",
+    "ts.external.directory.path": "C:\\Program Files\\JetBrains\\WebStorm 2025.3.1\\plugins\\javascript-plugin\\jsLanguageServicesImpl\\external",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\alexi\Documents\DevlopAndMe\Projects\INTER+VALUE\confluences-et-frontieres\confluences-et-frontieres-front" />
@@ -85,6 +133,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Makefile Target.build" />
         <item itemvalue="Makefile Target.build" />
       </list>
     </recent_temporary>
