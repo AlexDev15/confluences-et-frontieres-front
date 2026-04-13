@@ -8,6 +8,7 @@ import styles from "./Partners.module.scss";
 
 // Import external components
 import PartnersDescription from "./_PartnersComponents/PartnersDescription/PartnersDescription";
+import PartnersScrollController from "./_PartnersComponents/PartnersScrollController/PartnersScrollController";
 import UpButton from "../../../components/Button/UpButton/UpButton";
 
 // Import partners
@@ -29,9 +30,11 @@ export default function Partners() {
 	return (
 		<main className={styles.partners}>
 			<UpButton className={styles.button} />
-			{Partner.map((partner, index, array) => (
-				<PartnersDescription key={`${partner.name} ${index}`} isFirst={index === 0} nextPartnerId={(index + 1 < array.length) ? `partners-${array[index + 1].location}` : ""} location={partner.location} iso={partner.iso} name={partner.name} description={t_partners(`${partner.location}.description`)} image={partner.image} icon={partner.icon} right={index % 2 !== 0} />
-			))}
+			<PartnersScrollController>
+				{Partner.map((partner, index, array) => (
+					<PartnersDescription key={`${partner.name} ${index}`} isFirst={index === 0} nextPartnerId={(index + 1 < array.length) ? `partners-${array[index + 1].location}` : ""} location={partner.location} iso={partner.iso} name={partner.name} description={t_partners(`${partner.location}.description`)} image={partner.image} icon={partner.icon} right={index % 2 !== 0} />
+				))}
+			</PartnersScrollController>
 		</main>
 	);
 }
