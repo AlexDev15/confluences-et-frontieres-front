@@ -1,0 +1,447 @@
+@use "../../../variables" as *;
+
+.secondColor {
+	color: $primary-color;
+}
+
+.partnerIndividual {
+	position: relative;
+	width: 100%;
+	height: 100%;
+	height: auto;
+
+	.presentation {
+		width: 100%;
+		height: 100vh;
+		min-height: 700px;
+		position: relative;
+
+		display: flex;
+		justify-content: center;
+		align-items: center;
+
+		overflow: hidden;
+
+		.background {
+			width: 100%;
+			height: 100%;
+
+			position: absolute;
+			top: 0;
+			left: 0;
+
+			z-index: -1;
+
+			background-image: url("../../../../../public/images/home/Bretagne_1.jpg");
+			background-size: cover;
+			background-position: center;
+
+			filter: blur(1.7px);
+
+			transform: scale(1.1);
+
+			&::before {
+				content: "";
+				position: absolute;
+				top: 0;
+				right: 0;
+				bottom: 0;
+				left: 0;
+				background: rgba(0, 0, 0, 0.4); // Change the last value to adjust darkness
+			}
+		}
+
+		.content {
+			width: 100%;
+			height: 100%;
+
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			align-items: self-start;
+
+			padding-left: 5%;
+
+			color: $text-color;
+
+			.title {
+				display: flex;
+				justify-content: left;
+				align-items: center;
+
+				h1 {
+					margin-bottom: 1%;
+					margin-left: 10%;
+
+					font-size: calc(var(--step-6) + 12px);
+					text-align: left;
+					font-weight: bold;
+					text-shadow: var(--font-shadows);
+				}
+			}
+
+			p {
+				min-width: 400px;
+				max-width: 40%;
+
+				font-size: var(--step-1);
+				text-shadow: var(--font-shadows);
+				text-align: left;
+
+				text-align: justify;
+
+				margin-bottom: 4%;
+
+				font-weight: 500;
+			}
+		}
+	}
+
+	.secondPart {
+		position: relative;
+		width: 100%;
+		height: 100%;
+
+		padding-left: 5%;
+		padding-right: 5%;
+		padding-top: 3%;
+		padding-bottom: 5%;
+
+		background-color: $background-color;
+
+		p {
+			&:first-child {
+				margin-top: 20px;
+				font-size: var(--step-1);
+				font-weight: 300;
+				text-align: justify;
+			}
+		}
+
+		h2 {
+			font-size: calc(var(--step-5) + 5px);
+			font-weight: bold;
+		}
+
+		.mainDescription {
+			width: 100%;
+			display: flex;
+
+			flex-direction: row;
+			align-items: flex-start;
+
+			.imageDescription {
+				width: 60%;
+				height: 100%;
+
+				.phoneImage {
+					display: none;
+
+					width: 100%;
+					height: 300px;
+			
+					margin-bottom: 20px;
+					border-radius: 3px;
+			
+					background-position: center;
+					background-size: cover;
+					background-repeat: no-repeat;
+			
+					box-shadow: 0px 16px 36px -9px rgba(0, 0, 0, 0.5);
+				}
+
+				.imageLocation {
+					width: 100%;
+					// height: 250px;
+					height: 100%;
+
+					border-radius: 8px;
+
+					img {
+						height: 100%;
+					}
+				}
+
+				p {
+					display: none;
+				}
+			}
+
+			.topTitle {
+				display: none;
+			}
+
+			.bottomTitle {
+				display: inline;
+			}
+			
+			.description {
+				height: 100%;
+
+				display: flex;
+				flex-direction: column;
+				justify-content: space-between;
+
+				.siteLink {
+					margin: 0;
+
+					font-size: var(--step-1);
+
+					a {
+						text-decoration: underline;
+					}
+				}
+			}
+
+			span {
+				position: relative;
+				width: 100%;
+				
+				&:last-child {
+					margin-left: 50px;
+				}
+			}
+
+
+			p {
+				font-size: var(--step-1);
+				text-align: justify;
+			}
+		}
+
+		.job {
+			p {
+				font-size: var(--step-1);
+				text-align: justify;
+			}
+		}
+
+		.events {
+			.paragraphe {
+				margin-bottom: 3%;
+				font-size: var(--step-1);
+				text-align: justify;
+			}
+		}
+
+		& > * {
+			margin-bottom: 3%;
+		}
+
+		&:last-child {
+			margin-bottom: 5%;
+		}
+	}
+}
+
+@media screen and (max-width: 1350px) {
+	.partnerIndividual {
+		.secondPart {
+			.mainDescription {
+				height: 100%;
+				display: flex;
+				flex-direction: column;
+
+				p {
+					margin: 0;
+					display: block;
+					margin-left: 0px;
+					margin-bottom: 10px;
+				}
+
+				span {
+					&:last-child {
+						margin-left: 0px;
+					}
+				}
+
+				.imageDescription {
+					width: 100%;
+					display: flex;
+
+					.phoneImage {
+						display: block;
+					}
+
+					.imageLocation {
+						display: none;
+					}
+
+					p {
+						margin: 0;
+						display: inline;
+						margin-left: 15px;
+					}
+				}
+
+				.topTitle {
+					display: inline;
+				}
+
+				.bottomTitle {
+					display: none;
+				}
+			}
+		}
+	}
+}
+
+@media screen and (max-width: 1050px) {
+	.partnerIndividual {
+		.secondPart {
+			.mainDescription {
+				display: flex;
+				flex-direction: column;
+
+				span {
+					width: 100%;
+
+					&:last-child {
+						margin-left: 0px;
+					}
+
+					p {
+						margin: 0;
+						margin-bottom: 10px;
+						margin-top: 10px;
+					}
+				}
+
+				p {
+					margin: 0;
+					display: block;
+					margin-left: 15px;
+				}
+
+				.imageDescription {
+					width: 100%;
+					display: flex;
+
+					p {
+						display: none;
+					}
+				}
+
+				.topTitle {
+					display: inline;
+				}
+
+				.bottomTitle {
+					display: none;
+				}
+			}
+
+			.events {
+				.paragraphe {
+					margin-bottom: 25px;
+				}
+			}
+		}
+	}
+}
+
+@media screen and (max-width: 520px) {
+	.partnerIndividual {
+		.presentation {
+			min-height: 0;
+
+			.content {
+				width: 100%;
+				padding-left: 5%;
+
+				.title {
+					h1 {
+						margin-bottom: 8%;
+						font-size: calc(var(--step-6));
+						margin-bottom: 0;
+					}
+				}
+
+				p {
+					min-width: 80%;
+
+					margin-bottom: 8%;
+				}
+
+				img {
+					width: 50px;
+				}
+			}
+		}
+		.secondPart {
+			padding: 0;
+
+			.mainDescription {
+				display: flex;
+				flex-direction: column;
+
+				p {
+					display: block;
+					margin: 0;
+					margin-top: 10px;
+				}
+
+				.imageDescription {
+					width: 100%;
+					display: flex;
+
+					p {
+						margin: 0;
+						display: none;
+						margin-left: 15px;
+					}
+
+					.phoneImage {
+						height: 200px;
+					}
+				}
+
+				h2 {
+					width: 100%;
+					text-align: center;
+					
+				}
+
+				.topTitle {
+					display: inline;
+				}
+
+				.bottomTitle {
+					display: none;
+				}
+
+				span {
+					margin-left: 0px !important;
+				}
+
+				img {
+					width: 100% !important;
+				}
+			}
+
+			& > * {
+				margin-bottom: 0;
+			}
+
+			.job {
+				h2 {
+					margin-top: 15px;
+					margin-bottom: 8px;
+
+					text-align: center;
+				}
+			}
+
+			.events {
+				h2 {
+					margin-top: 15px;
+					margin-bottom: 8px;
+
+					text-align: center;
+				}
+
+				padding-bottom: 50px;
+			}
+		}
+	}
+}

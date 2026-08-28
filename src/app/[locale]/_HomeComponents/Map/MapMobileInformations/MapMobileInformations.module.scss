@@ -1,0 +1,62 @@
+@use "../../../../variables" as *;
+
+.mapMobileInformations {
+	display: none;
+}
+
+.search {
+	height: 40px;
+
+	font-size: var(--step-1);
+
+	overflow: hidden;
+
+	svg {
+		width: 15px;
+		height: 15px;
+	}
+}
+
+@media screen and (max-width: 520px) {
+	.mapMobileInformations {
+		width: 100%;
+		height: 280px;
+
+		position: fixed;
+		bottom: 0;
+
+		z-index: 1;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+
+		background-color: $primary-color;
+
+		border-top-left-radius: 8px;
+		border-top-right-radius: 8px;
+
+		transition: all 0.2s ease-in-out;
+
+		transform: translateY(218px);
+
+		.horizontalLine {
+			width: 20%;
+			height: 2px;
+
+			border-radius: 10%;
+
+			background-color: white;
+
+			margin-top: 5px;
+			margin-bottom: 2px;
+		}
+	}
+
+	.open {
+		transform: translateY(0%);
+	}
+
+	.hidden {
+		transform: translateY(100%);
+	}
+}

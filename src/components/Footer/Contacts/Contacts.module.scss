@@ -1,0 +1,36 @@
+@use "../../../app/variables" as *;
+
+.contacts {
+	display: flex;
+	flex-direction: column;
+	width: 520px;
+
+	h3 {
+		font-size: var(--step-3);
+		font-weight: bold;
+
+		margin-bottom: 15px;
+	}
+
+	li {
+		width: 375px;
+
+		margin-top: 20px;
+		margin-left: 20px;
+
+		list-style: disc;
+
+		font-size: var(--step-1);
+		font-weight: 300;
+	}
+}
+
+@media screen and (max-width: 1168px) {
+	.contacts {
+		width: 100%;
+
+		li {
+			width: 100%;
+		}
+	}
+}

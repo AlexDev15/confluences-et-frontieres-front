@@ -1,0 +1,12 @@
+name: $CONTAINER_NAME
+
+services:
+  front:
+    container_name: $CONTAINER_NAME-front
+    build:
+      context: ../..
+    env_file:
+      - ../../.env
+    restart: unless-stopped
+    profiles:
+      - production

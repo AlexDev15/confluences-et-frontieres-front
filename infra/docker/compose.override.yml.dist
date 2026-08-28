@@ -1,0 +1,29 @@
+services:
+  front:
+    labels:
+      - "traefik.enable=true"
+      - "traefik.docker.network=proxy"
+
+      # Routeur HTTPS (Port 443)
+      - "traefik.http.routers.soif-d-europe-front.rule=Host(`$DOMAIN_NAME`)"
+      - "traefik.http.routers.soif-d-europe-front.entrypoints=websecure"
+      - "traefik.http.routers.soif-d-europe-front.tls=true"
+      - "traefik.http.routers.soif-d-europe-front.tls.certresolver=letsencrypt"
+
+      # Service / Port interne
+      - "traefik.http.services.soif-d-europe-front.loadbalancer.server.port=$PORT"
+
+      # Déclaration du Middleware de Redirection HTTPS
+      - "traefik.http.middlewares.redirect-to-https.redirectscheme.scheme=https"
+      - "traefik.http.middlewares.redirect-to-https.redirectscheme.permanent=true"
+
+      # Routeur HTTP (Port 80) + Application du Middleware
+      - "traefik.http.routers.soif-d-europe-front-http.rule=Host(`$DOMAIN_NAME`)"
+      - "traefik.http.routers.soif-d-europe-front-http.entrypoints=web"
+      - "traefik.http.routers.soif-d-europe-front-http.middlewares=redirect-to-https"
+    networks:
+      - proxy
+
+networks:
+  proxy:
+    external: true

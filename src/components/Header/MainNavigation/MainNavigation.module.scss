@@ -1,0 +1,39 @@
+@use "../../../app/variables" as *;
+
+.menu {
+	width: 100%;
+	height: 100%;
+
+	display: flex;
+	flex-grow: 1;
+	align-items: center;
+	justify-content: space-between;
+
+	.buttonsContainer {
+		display: flex;
+		flex-grow: 1;
+		align-items: center;
+		justify-content: center;
+		list-style: none;
+
+		li {
+			margin: 0 3rem;
+		}
+	}
+}
+
+@media screen and (max-width: 1610px) {
+	.menu {
+		.buttonsContainer {
+			li {
+				margin: 0 2rem;
+			}
+		}
+	}
+}
+
+@media screen and (max-width: 1450px) {
+	.menu {
+		display: none;
+	}
+}

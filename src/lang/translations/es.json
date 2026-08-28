@@ -1,0 +1,410 @@
+{
+	"Header": {
+		"Home": "Bienvenida",
+		"Partners": "Asociados",
+		"Project": "El proyecto",
+		"Events": "Eventos",
+		"Productions": "Producciones",
+		"Contact": "Contactos",
+		"LogoDescription": "Logo de la asociación INTER+VALUE",
+
+		"LanguageSelector": {
+			"fr": "Francés",
+			"en": "Inglés",
+			"pt": "Portugués",
+			"es": "Español",
+			"gl": "Gallego"
+		},
+
+		"Country": {
+			"France": "Francia",
+			"Portugal": "Portugal",
+			"Italy": "Italia",
+			"Romania": "Rumania",
+			"Spain": "España",
+			"Galicen": "Galicia"
+		},
+
+		"FlagsDescriptions": {
+			"fr": "Bandera de Francia",
+			"fr-br": "Bandera de Bretaña",
+			"ro": "Bandera de Rumanía",
+			"it": "Bandera de Italia",
+			"en": "Bandera de Inglaterra",
+			"pt": "Bandera de Portugal",
+			"es": "Bandera de España",
+			"gl": "Bandera de Galicia"
+		}
+	},
+	"Footer": {
+		"Association": {
+			"Description": "Asociación de aficionados, desarrolladores y expertos.",
+			"ONG": "Organización No Gubernamental (ONG).",
+			"MoreInformations": "Para más información:",
+			"LogoDescription": "Logo de la asociación Confluencias & Fronteras"
+		},
+		"SocialNetworks": {
+			"Title": "Nuestras Redes Sociales"
+		},
+		"Contacts": {
+			"Title": "Nuestros Contactos",
+			"SocialPlace": "Sede social",
+			"Annexe": "Anexo",
+			"Email": "Correo electrónico"
+		},
+		"Links": {
+			"SiteMap": "Mapa del sitio",
+			"Licenses": "Licencias",
+			"LegalMentions": "Menciones legales",
+			"CGUV": "Términos y condiciones de uso",
+			"Cookies": "Configurar las cookies",
+			"Copyright": "© 2024 Asociación INTER+VALUE"
+		}
+	},
+	"Pages": {
+		"Home": {
+			"ProjectDescription": {
+				"Title": "Confluencias y Fronteras",
+				"Description": "CONFLUENCIAS Y FRONTERAS es un proyecto de intercambio intercultural propuesto a partir de 2023 en el marco de asociaciones con INTER+VALUE, establecida en Bretaña (Francia), y diversas estructuras europeas interesadas, como asociaciones, entidades locales, escuelas, etc., que involucran sus territorios o ámbitos de acción y su población o público.",
+				"Discover": "Descubrir"
+			},
+			"Partners": {
+				"Title": "Asociados",
+				"Description": "Organismos y territorios que se han adherido al proyecto.",
+				"LearnMore": "Más información"
+			},
+			"Map": {
+				"Search": {
+					"Placeholder": "Buscar un socio",
+					"NotFound": "No se encontró ningún socio"
+				}
+			}
+		},
+		"Events": {
+			"Title": {
+				"Prefix": "",
+				"Content": "Eventos"
+			},
+			"MainImageDescription": "Imagen de la primera bienal de Vimioso.",
+			"NextEvents": {
+				"Prefix": "Próximos",
+				"Content": "eventos",
+				"Description": "Descubre todos nuestros próximos eventos.",
+				"Nothing": "No hay eventos próximos",
+				"Nothing1": "No hay eventos previstos para el futuro cercano.",
+				"Nothing2": "Vuelve más tarde para ver si se han añadido nuevos eventos."
+			},
+			"PastEvents": {
+				"Prefix": "Eventos",
+				"Content": "realizados",
+				"Description": "Descubre todos nuestros eventos realizados.",
+				"Nothing1": "No se han listado eventos en esta página.",
+				"Nothing2": "Vuelve más tarde para ver si se han añadido nuevos eventos."
+			},
+			"Individual": {
+				"AlreadyPassed": "Este evento ya ha pasado.",
+				"Coming": "Este evento está por venir.",
+				"OrganisationDate": "Organizado el: {date}.",
+				"ProgramAvailable": "Hay un programa disponible, ¡no dudes en descargarlo aquí!",
+				"ProgramUnavailable": "El programa de este evento aún no está disponible. Vuelve más tarde para descargarlo.",
+				"Download": "Descargar",
+				"MoreDetails": "Más detalles",
+				"Details": {
+					"Title": "Detalles",
+					"MoreDetailsSubtitle": "Saber más",
+					"MoreDetailsDescription": "Descargue el documento para saber más sobre el evento que está viendo.",
+					"LinkedEventsSubtitle": "Producciones relacionadas con este evento"
+				}
+			},
+			"Calendar": {
+				"Days": {
+					"Monday": "Lunes",
+					"Tuesday": "Martes",
+					"Wednesday": "Miércoles",
+					"Thursday": "Jueves",
+					"Friday": "Viernes",
+					"Saturday": "Sábado",
+					"Sunday": "Domingo"
+				},
+				"NoEvents": "No hay eventos programados para el mes de {month} de {year}."
+			},
+			"NotFound1": "No se han encontrado eventos en este momento.",
+			"NotFound2": "Intenta otra búsqueda o vuelve más tarde.",
+			"Placeholder": "Buscar un evento...",
+			"lastUpdate": "Actualizado el {date}",
+			"MoreEvents": "Más eventos",
+			"LearnMore": "Ver Más",
+			"Download": "Descargar el programa"
+		},
+		"Productions": {
+			"Title": {
+				"Prefix": "",
+				"Content": "Producciones"
+			},
+			"AllProductions": {
+				"Title": {
+					"Prefix": "Todas nuestras",
+					"Content": "producciones"
+				},
+				"Description": "Descubre todas nuestras producciones.",
+				"Placeholder": "Buscar una producción..."
+			},
+			"Individual": {
+				"OrganisationDate": "Producción terminada el: {date}.",
+				"Details": {
+					"MoreDetailsDescription": "Descargue el documento para saber más sobre la producción que está consultando."
+				}
+			},
+			"LearnMore": "Ver Más",
+			"lastUpdate": "Actualizado el {date}",
+			"MainImageDescription": "Imagen de la primera bienal de Vimioso.",
+			"NotFound1": "No se encontró ninguna producción en este momento.",
+			"NotFound2": "Intenta otra búsqueda o vuelve más tarde.",
+			"Nothing1": "Aún no hay producciones.",
+			"Nothing2": "Vuelve más tarde para ver si se han agregado nuevas producciones.",
+			"MoreProductions": "Más producciones"
+		},
+		"Partners": {
+			"part": {
+				"Prefix": "Papel del asociado",
+				"Content": "en el proyecto"
+			},
+			"event": {
+				"Prefix": "",
+				"Content": "Eventos"
+			}
+		},
+		"Project": {
+			"MainDescription": {
+				"Description": "Diseñado y establecido a partir de un acuerdo entre INTER+VALUE y el municipio portugués de Vimioso, el proyecto tiene como objetivo ser un programa plurianual llevado a cabo por ciudadanos y territorios involucrados que quieren dar a conocer y valorar su cultura y patrimonio."
+			},
+			"ProjectDescription": {
+				"Title": {
+					"Prefix": "El",
+					"Content": "proyecto"
+				},
+				"Description": "Diseñado a partir de un acuerdo entre INTER+VALUE y el municipio portugués de Vimioso, el proyecto se desarrolla como un programa plurianual impulsado por ciudadanos y territorios comprometidos que desean dar a conocer y valorar su cultura y patrimonio, enriqueciéndolos y dándoles proyección a nivel local, regional, nacional y principalmente europeo. Orientado hacia el futuro y sus desafíos, este proyecto genera relaciones de solidaridad entre ciudadanos y territorios que motivan, facilitan y justifican el lanzamiento, los objetivos y las ambiciones del programa, garantizando su sostenibilidad."
+			},
+			"HisName": {
+				"Title": {
+					"Prefix": "Su",
+					"Content": "nombre"
+				},
+				"Description": "El nombre CONFLUENCIAS & FRONTERAS fue inspirado por el deseo de conocimiento y difusión, gracias a los intercambios, de las culturas y patrimonios de los territorios involucrados en el proyecto. Sin embargo, estas culturas y patrimonios son el resultado de diversas influencias que, al sucederse y cruzarse, han contribuido a su construcción milenaria. Durante siglos y hasta ahora, las fronteras, tanto físicas como mentales, han condicionado las relaciones históricas, geográficas, económicas, políticas, sociales, etc. Al destacar su existencia y su papel, este proyecto intentará ayudar a superarlas."
+			},
+			"PartnersDescription": {
+				"Title": {
+					"Prefix": "Nuestros",
+					"Content": "asociaciones"
+				},
+				"ImageDescription": "Logo del municipio de Vimioso.",
+				"Description1": "El primer acuerdo de colaboración se alcanzó en 2022 entre la organización no gubernamental INTER+VALUE y el municipio de Vimioso (Portugal). La organización de un congreso internacional bienal propuesto por la asociación fue la base tanto del partenariado como del proyecto ampliado conocido como CONFLUENCIAS Y FRONTERAS.",
+				"Description2": "Presentado por INTER+VALUE a algunos de sus socios educativos y autoridades locales de Bretaña (Francia), Galicia (España), Toscana (Italia), Trás-os-Montes (Portugal) y Rumanía, el proyecto ha recibido el apoyo de diversas entidades (asociaciones, gobiernos locales, instituciones educativas) con las que se están formalizando acuerdos de colaboración.",
+				"SubTitle": "Nuestros socios actuales:"
+			},
+			"MainActivity": {
+				"Title": "ACTIVIDADES, PRODUCCIONES Y CONTENIDOS",
+				"Description": "El proyecto lleva el deseo de dar a conocer, valorar y difundir, más allá de los interlocutores-receptores habituales, la cultura y el patrimonio de los individuos y territorios concernidos, organizándolos en torno al marco determinado por su título, sin exclusión de un campo temático o disciplinario. Debe dar lugar a acciones concretas (actividades, intercambios, ...) y a producciones correlacionadas, idealmente llevadas o compartidas por actores asociativos, institucionales o profesionales y ciudadanos involucrados, en un espíritu de solidaridad orientado hacia el futuro y sus desafíos."
+			},
+			"ObjectifsDescription": {
+				"Title": {
+					"Prefix": "Nuestros",
+					"Content": "objetivos"
+				},
+				"Description": "Las reuniones, eventos y producciones proyectadas tienen como objetivo:",
+				"List": {
+					"1": "compartir contenidos relacionados con el conocimiento y la valorización de la cultura y el patrimonio, en cualquier campo temático o disciplinario - como las lenguas, las artes, los conocimientos, las tradiciones, la historia, la arqueología, la geografía, la economía, la sociología, las migraciones, las diásporas, las comunidades, etc. - y teniendo en cuenta la orientación inducida por el título CONFLUENCIAS & FRONTERAS.",
+					"2": "debatir cuestiones de desarrollo cultural y económico y relaciones transfronterizas locales y, más ampliamente, europeas, especialmente en contextos de aislamiento y despoblación rural.",
+					"3": "involucrar la búsqueda de soluciones innovadoras para el futuro desarrollo del (los) territorio(s) considerado(s)."
+				}
+			},
+			"MainBiennaleDescription": {
+				"Title": "LAS BIENALES INTERCULTURALES",
+				"Description": "Organizado en Vimioso por primera vez en el otoño de 2023 por INTER+VALUE y el municipio local que aporta la ayuda activa de sus servicios y su total apoyo en recursos logísticos e infraestructura, el primer evento llevará el nombre de BIENAL porque se planea renovarlo en un ciclo bianual."
+			},
+			"ActivitiesDescription": {
+				"Title": {
+					"Prefix": "Las",
+					"Content": "Actividades"
+				},
+				"List": {
+					"1": "Un congreso internacional, intercultural y plurilingüe, en torno al tema CONFLUENCIAS & FRONTERAS.",
+					"2": "Exposiciones de obras artísticas (pinturas, fotos y otras obras realizadas para el evento), literarias (libros y textos de autores de la región) y religiosas (estatuaria local).",
+					"3": "Un espacio de animación con un mercado y talleres de especialidades locales (artesanía, gastronomía...) y literatura (Día del libro y literatura regional).",
+					"4": "La inauguración de murales, realizados por artistas internacionales, y un taller de introducción a este arte callejero.",
+					"5": "Actividades culturales y recreativas (música, cine, descubrimiento de la flora y fauna local, rutas de salud).",
+					"6": "Visitas a museos, localidades y sitios notables del municipio y sus alrededores.",
+					"7": "Momentos de compartir de manera amigable e informal entre los participantes.",
+					"8": "Reuniones educativas en torno a un programa de intercambio europeo.",
+					"9": "La publicación de una revista plurilingüe en torno al evento y las diversas actividades y producciones realizadas o inducidas."
+				}
+			}
+		},
+		"Contacts": {
+			"Title": {
+				"Prefix": "Nosotros",
+				"Content": "contactar"
+			},
+			"Name": "Nombre",
+			"Location": "Dirección",
+			"Site": "Sitio",
+			"Email": "Correo electrónico",
+			"SecondTitle": {
+				"Prefix": "Contactar nuestros",
+				"Content": "socios"
+			}
+		},
+		"NotFound": {
+			"Title": "Página no encontrada",
+			"Button": "Retorno al inicio"
+		},
+		"LegalMentions": {
+			"Title": "Avisos legales",
+			"France": "Francia",
+			"Developer": "Desarrollador",
+			"Director": "Director",
+			"ContentAnimator": "Animador de contenido"
+		},
+		"Licenses": {
+			"Title": "Licencias",
+			"ScriptsTitle": "Licencias de scripts",
+			"Scripts": "Scripts",
+			"Licenses": "Licencias",
+			"Authors": "Autores"
+		},
+		"SitePlan": {
+			"Title": "Mapa del sitio",
+			"Home": "Inicio",
+			"ProjectDescription": "Descripción del proyecto",
+			"PartnersDescription": "Presentación de los socios",
+			"Map": "Mapa de socios",
+			"Partners": "Los socios",
+			"Project": "El proyecto",
+			"Events": "los eventos",
+			"PastEvents": "Eventos pasados",
+			"NextEvents": "Próximos eventos",
+			"Productions": "Producciones",
+			"ProductionsList": "Lista de producciones",
+			"Contacts": "Contactos"
+		}
+	},
+	"Events": {
+		"la-premiere-biennale-interculturelle-de-vimioso": {
+			"name": "La Primera Bienal Intercultural de Vimioso",
+			"description": "Organizado en Vimioso en el otoño de 2023 por INTER+VALUE y el municipio local, que proporciona la ayuda activa de sus servicios y su total apoyo en recursos logísticos y tejido de infraestructuras, el primer evento llevará el nombre de BIENAL porque se planea renovarlo en un ciclo bianual."
+		},
+		"rencontre-d-orchestres-philarmoniques": {
+			"name": "Encuentro de Orquestas Filarmónicas",
+			"description": "La cuarta noche de la Bienal de Vimioso 2023 fue animada por el encuentro de dos orquestas: A Lira de Ribadavia (Galicia, España), que viajó 275 km desde su ciudad natal para tocar en Vimioso, y la Banda Filarmónica de Bragança, procedente de la capital del distrito ubicada a unos cincuenta kilómetros de distancia. Ambas orquestas se turnaron para interpretar éxitos musicales más o menos conocidos por el numeroso público, que incluía a gallegos y portugueses venidos a admirar y apoyar. Comenzando con calma, poco a poco despertaron el creciente entusiasmo del público antes de terminar en apoteosis. El broche final, interpretado al unísono por ambas filarmónicas bajo la hábil dirección de sus directores, fue repetido, solicitado y ovacionado por un público totalmente conquistado."
+		},
+		"traos-montes-exposition-de-photos-a-la-mir": {
+			"name": "Trás-os-Montes: Exposición de fotos en La Mir",
+			"description": "Organizado en Vimioso en el otoño de 2023 por INTER+VALUE y el municipio local, que proporciona la asistencia activa de sus servicios y su total apoyo en recursos logísticos e infraestructura, el primer evento llevará el nombre de BIENAL ya que se planea renovarlo en un ciclo bianual."
+		},
+		"nouvelles-fresques-murales-a-bruz": {
+			"name": "Nuevos murales en Bruz",
+			"description": "Beneficiario de un presupuesto municipal otorgado por el Comité Ciudadano de la Vida Cultural de Bruz, INTER+VALUE ha elegido esta ciudad de Bretaña como terreno de expresión para el arte callejero, portador de valores culturales y patrimoniales resaltados por el proyecto Confluencias & Fronteras. El artista chileno Allan Halley, quien ya se ha expresado en los muros de Vimioso, Portugal, en 2023, va a pintar cuatro murales en Bruz entre principios de junio y finales de septiembre de 2024. Primero, se realizará un gran mural en el centro de la ciudad, en una pared exterior de la sala de espectáculos del Grand Logis; luego, las escuelas del barrio de Vert-Buisson recibirán una segunda creación en la que participarán los alumnos. En septiembre, será el turno de dos nuevos murales..."
+		},
+		"joias-vales-de-vimioso-exposition-de-bijoux-de-manuela-ferraz": {
+			"name": "Joias Vales de Vimioso: Exposición de joyas de Manuela Ferraz",
+			"description": "Organizado en Vimioso en el otoño de 2023 por INTER+VALUE y el municipio local, que proporciona la asistencia activa de sus servicios y su total apoyo en recursos logísticos e infraestructura, el primer evento llevará el nombre de BIENAL ya que se planea renovarlo en un ciclo bianual."
+		},
+		"poetas-exposition-de-portraits-peints-de-carla-mendes": {
+			"name": "Poetas - Exposición de retratos pintados de Carla Mendes",
+			"description": "La artista lisboeta Carla Mendes Côrte-Real realizó 45 retratos pintados de poetas portugueses famosos para exhibir durante dos meses en la Casa de la Cultura de Vimioso con motivo de la 1ª Bienal intercultural, transfronteriza y europea celebrada en este pueblo del noreste de Portugal. La exposición fue inaugurada la mañana del 27 de abril en presencia de autoridades municipales, el equipo de INTER+VALUE, el público local y numerosos visitantes franceses de Bretaña que acudieron al evento. La inauguración incluyó discursos protocolarios, lecturas o recitaciones de poemas y una actuación musical a cargo del grupo D'Alma Fado, compuesto por una cantante y dos guitarristas provenientes de la ciudad vecina de Braganza."
+		},
+		"1er-congres-international-interculturel-et-plurilingue": {
+			"name": "1er Congreso Internacional Intercultural y Plurilingüe",
+			"description": "Una de las manifestaciones principales de la 1ª Bienal de Vimioso es el Congreso Internacional, Intercultural y Multilingüe de tres días que comenzará el 28 de septiembre de 2024. Reunirá a ponentes y participantes de Portugal, Galicia y Bretaña. Los temas debatidos serán los del proyecto Confluencias & Fronteras: conocimiento y difusión de las culturas y patrimonios locales, influencias culturales, fronteras (físicas, históricas, geográficas, económicas, políticas, sociales, mentales...). Todos los campos disciplinarios relacionados con estos temas podrán ser abordados durante el congreso."
+		},
+		"1ere-biennale-interculturelle-transfrontaliere-et-europeenne-de-vimioso": {
+			"name": "1ª Bienal Intercultural, Transfronteriza y Europea de Vimioso",
+			"description": "Diseñado por Manuel de Lima, presidente de INTER+VALUE, y organizado en Vimioso en otoño de 2023 por la asociación y el municipio local, que brinda ayuda activa a través de sus servicios y apoyo en recursos logísticos e infraestructura, el primer gran evento de Confluencias & Fronteras lleva el nombre de Bienal, sugerido por el alcalde de Vimioso, Jorge Fidalgo, ya que está previsto renovarlo cada dos años, y los calificativos intercultural, transfronterizo y europeo que precisán sus objetivos y definen los marcos en los que se integra."
+		},
+		"traos-montes-exposition-de-photos-d-eduardo-perez": {
+			"name": "Trás-os-Montes - Exposición de fotos de Eduardo Pérez",
+			"description": "Organizado en Vimioso en el otoño de 2023 por INTER+VALUE y el municipio local, que proporciona la asistencia activa de sus servicios y su total apoyo en recursos logísticos e infraestructura, el primer evento llevará el nombre de BIENAL ya que se planea renovarlo en un ciclo bianual."
+		},
+		"1ere-biennale-interculturelle-transfrontaliere-et-europeenne-de-ribadavia": {
+			"name": "1ª Bienal Intercultural, Transfronteriza y Europea de Ribadavia",
+			"description": "Al igual que Vimioso, Ribadavia desea realizar una Bienal intercultural, transfronteriza y europea. La primera debe tener lugar durante tres días a finales de octubre de 2024. Será organizada por el municipio, con la contribución activa de sus servicios y su apoyo en recursos logísticos y tejido de infraestructuras, y con la colaboración de INTER+VALUE que aportará su experiencia, red de relaciones y participación de ponentes bretones y portugueses."
+		},
+		"inauguration-d-une-grande-fresque-murale-dediee-aux-soeurs-chouzas": {
+			"name": "Inauguración de un gran mural dedicado a las hermanas Touzas",
+			"description": "Organizado en Ribadavia en el otoño de 2024 por INTER+VALUE y el municipio local, que proporciona la asistencia activa de sus servicios y su total apoyo en recursos logísticos e infraestructura, el primer evento llevará el nombre de BIENAL ya que se planea renovarlo en un ciclo bianual."
+		}
+	},
+	"Partners": {
+		"Bretagne": {
+			"location": "Región de Francia",
+			"description": "La capital de Bretaña, Rennes, es una ciudad fundada en el siglo II a.C. que ha preservado su distintivo estilo arquitectónico medieval a lo largo de los siglos. Esta ciudad, hogar de más de 200,000 habitantes, es conocida por sus espacios verdes, instalaciones culturales e infraestructura moderna."
+		},
+		"Rennes": {
+			"location": "Ciudad",
+			"secondLocation": "Bretaña",
+			"thirdLocation": "Francia",
+			"description": "Rennes es la capital de Bretaña, una antigua provincia y región actual del noroeste de Francia situada en el Arco Atlántico europeo. La ciudad tiene unos 225,000 habitantes, pero su área metropolitana incluye más de 770,000 personas. Desde finales del siglo XX, se ha convertido en un importante centro económico centrado en lo digital y las nuevas tecnologías. Es una de las principales ciudades estudiantiles de Francia, con cerca de 66,000 estudiantes. Etiquetada como Ciudad de Arte e Historia, Rennes ha conservado un importante patrimonio medieval y clásico en su centro histórico."
+		},
+		"Vimioso": {
+			"location": "Municipio",
+			"secondLocation": "Trás-os-Montes",
+			"thirdLocation": "Portugal",
+			"description": "Vimioso es un municipio del noreste de Portugal, parte de la comunidad intermunicipal de Trás-os-Montes, ubicado en el distrito de Bragança, cerca de la frontera con España. Su patrimonio histórico se mezcla armoniosamente con sus paisajes montañosos, salpicados de ríos y orillas escarpadas, ofreciendo una amplia gama de actividades al aire libre. La artesanía y la gastronomía local, que destacan los productos regionales, junto con la calidad de vida, hacen de Vimioso un destino ideal donde la naturaleza, el ritmo tranquilo de las estaciones y las tradiciones centenarias permanecen preservadas y auténticas.",
+			"List": {
+				"Municipality of Vimioso": {
+					"name": "Municipio de Vimioso",
+					"description": "El Ayuntamiento de Vimioso es el socio histórico del proyecto Confluencias y Fronteras, ya que fue después de una conversación en 2022 entre Manuel de Lima, presidente de INTER+VALUE, y Jorge Fidalgo, alcalde de Vimioso, que se creó el proyecto, dando lugar a su primer gran evento: la Bienal Intercultural, Transfronteriza e Internacional de Vimioso.",
+					"part": "El Ayuntamiento de Vimioso desempeña un papel crucial en el apoyo y financiación de la Bienal y diversas actividades, creaciones y producciones, asegurando su realización y difusión más allá de su territorio. Al asumir este papel pionero, demuestra su compromiso con el desarrollo cultural y artístico de la región y su deseo de asegurar su amplia difusión. Además de los recursos financieros, el Ayuntamiento de Vimioso ofrece apoyo logístico y organizativo, contribuyendo al éxito del evento y las acciones relacionadas. Su participación activa y su inversión en la 1ª Bienal tuvo un efecto catalizador en otros socios que, después de asistir o colaborar en la organización del evento, quedaron convencidos del impacto positivo de tal proyecto en la comunidad local y decidieron involucrarse en la realización de eventos similares en sus propios territorios.",
+					"event": "El primer evento local relacionado con el proyecto Confluencias y Fronteras fue la realización, en agosto de 2022, de una exposición de obras del fotógrafo Eduardo Pérez titulada Trás-os-Montes. Al año siguiente, en primavera, los muralistas chilenos Jotapé y Allan Halley realizaron una serie de murales en el corazón de la localidad. En otoño de 2023, organizado por INTER+VALUE y el Ayuntamiento de Vimioso, el primer gran evento de Confluencias y Fronteras se llevó a cabo durante ocho días bajo el nombre de 1ª Bienal Intercultural, Transfronteriza y Europea de Vimioso. Se realizaron diversas producciones en esta ocasión (pinturas, joyas, álbumes, videos…). Las fechas de la 2ª Bienal ya están programadas: se llevará a cabo a finales de abril de 2025."
+				}
+			}
+		},
+		"Bruz": {
+			"location": "Comuna",
+			"secondLocation": "Bretaña",
+			"thirdLocation": "Francia",
+			"description": "Bruz es una comuna de Bretaña ubicada en el departamento de Ille-et-Vilaine. Es una de las 43 comunas que forman parte de Rennes Métropole. Antiguamente residencia de los obispos de Rennes, está bordeada por el río Vilaine y aún conserva varios castillos y mansiones en su territorio. Los bombardeos aliados en 1944 destruyeron por completo el centro de la ciudad y transformaron profundamente su apariencia. Predominantemente rural hasta mediados del siglo XX, está fuertemente influenciada por su proximidad a Rennes, que está a solo 13 km. En Bruz hay muchos monumentos, instalaciones culturales o deportivas y empresas, así como estructuras importantes del área metropolitana como el campus de Ker Lann, que alberga empresas e instituciones de educación superior, y el Parque de Exposiciones de Rennes. Desde finales del siglo XX, su población ha crecido significativamente, alcanzando hoy en día unos 20,000 habitantes."
+		},
+		"Prato": {
+			"location": "Municipio",
+			"secondLocation": "Toscana",
+			"thirdLocation": "Italia",
+			"description": "Ubicada en la Toscana, en el corazón de Italia, Prato es una ciudad dinámica e histórica. La segunda ciudad más grande de la región después de Florencia, Prato es famosa por su rico patrimonio cultural, textiles de renombre mundial y ambiente animado. Su centro medieval, con calles adoquinadas y edificios históricos, refleja su próspero pasado como centro comercial y artístico."
+		},
+		"Iaşi": {
+			"location": "Municipio",
+			"secondLocation": "Moldavia",
+			"thirdLocation": "Rumanía",
+			"description": "Ubicada en el noreste de Rumanía, Iași es la segunda ciudad más grande del país y una joya cultural e histórica. Conocida por su rico patrimonio arquitectónico, iglesias ortodoxas y magníficos palacios, ofrece una inmersión en la historia rumana."
+		},
+		"Ribadavia": {
+			"location": "Municipio",
+			"secondLocation": "Galicia",
+			"thirdLocation": "España",
+			"description": "En la región de Galicia, en el noroeste de España, Ribadavia se destaca como una pequeña ciudad cargada de historia y encanto. Antigua capital del Reino de Galicia en la Edad Media, Ribadavia se encuentra en el corazón de una región vitivinícola de renombre. Su hermoso centro histórico, donde se mezclan restos medievales, iglesias y casas antiguas con calles adoquinadas, es testimonio de su rico pasado.",
+			"List": {
+				"Ribadavia Town Hall": {
+					"name": "Municipio de Ribadavia",
+					"description": "El Ayuntamiento de Ribadavia es un actor clave en la vida local. Con un fuerte compromiso con el desarrollo cultural y social, desempeña un papel central en la promoción de la cultura y las artes de la comunidad autónoma de Galicia. Dirigido por un equipo dedicado, el Ayuntamiento de Ribadavia trabaja activamente para enriquecer la vida de la comunidad local y fortalecer los lazos con otras comunidades, tanto a nivel regional como internacional. Su participación en el proyecto Confluencias y Fronteras demuestra su apertura a la cooperación transfronteriza y europea y su deseo de fomentar intercambios culturales enriquecedores.",
+					"part": "El Ayuntamiento de Ribadavia se unió al proyecto después de establecer vínculos con INTER+VALUE en 2023 y observar de cerca el éxito y el impacto de la 1ª Bienal de Vimioso. Al observar los resultados positivos en términos culturales, turísticos y de desarrollo local que este evento trajo a Vimioso, Ribadavia vio una oportunidad de colaboración mutuamente beneficiosa. Esta decisión refleja su compromiso de dinamizar su propia escena cultural y fortalecer sus lazos con otras comunidades, tanto a nivel regional como internacional. Al organizar su propia bienal en octubre de 2024, Ribadavia se embarca en una cooperación y un intercambio cultural transfronterizo y europeo, afirmando su compromiso con el proyecto Confluencias y Fronteras y su visión de una colaboración sostenible y enriquecedora entre Bretaña, Galicia y el norte de Portugal.",
+					"event": "El primer evento local relacionado con el proyecto Confluencias y Fronteras fue la creación de un gran mural, cuya inauguración tuvo lugar el 8 de marzo de 2023 en presencia de INTER+VALUE. Al igual que Vimioso, Ribadavia planea organizar una Bienal Intercultural, Transfronteriza y Europea. La primera tendrá lugar durante tres días a finales de octubre de 2024."
+				}
+			}
+		}
+	},
+	"Productions": {
+		"la-premiere-creation-muralle-de-vimioso": {
+			"name": "La Primera Bienal Intercultural de Vimioso",
+			"description": "Organizado en Vimioso en el otoño de 2023 por INTER+VALUE y el municipio local, que brinda apoyo activo a través de sus servicios y recursos logísticos completos, el primer evento se llama BIENAL ya que está previsto renovarlo en un ciclo bienal."
+		}
+	},
+	"Others": {
+		"ImageOf": "Imagen de {something}",
+		"ScrollToSeeMore": "Desplazar para ver más",
+
+		"DevPopup": {
+			"1": "El sitio todavía está en desarrollo, por lo que una o más páginas pueden no estar completamente terminadas.",
+			"2": "¡Gracias por su comprensión!"
+		}
+	}
+}

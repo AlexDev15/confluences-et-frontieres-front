@@ -1,0 +1,62 @@
+@use "../../../../variables" as *;
+
+
+.calendarSection {
+  padding: 50px 5% 150px 5%;
+  max-width: 1920px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.image {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.event {
+	display: flex;
+
+	.round {
+		border-radius: 15%;
+		width: 7px;
+		min-width: 7px;
+
+		margin-right: 5px;
+		margin-left: 5px;
+	}
+
+	b {
+		flex: 1;
+
+		overflow-x: hidden;
+		overflow-y: hidden;
+		text-overflow: ellipsis;
+		white-space: nowrap;
+	}
+
+	&:hover {
+		cursor: pointer;
+	}
+}
+
+.container {
+	height: auto;
+
+	margin-top: 70px;
+	padding-left: 2%;
+	padding-right: 2%;
+
+	margin-bottom: 50px;
+
+	.calendar {
+		z-index: 0;
+	}
+}
+
+@media screen and (max-width: 520px) {
+	.container {
+		margin-top: 0px;
+		padding-bottom: 75px;
+		margin-bottom: 0;
+	}
+}

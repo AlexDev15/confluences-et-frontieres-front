@@ -1,0 +1,128 @@
+@use "../../app/variables" as *;
+
+.searchBar {
+	width: 90%;
+	height: 50px;
+
+	display: flex;
+	justify-content: left;
+	align-items: center;
+
+	padding-left: 10px;
+
+	border: 3px solid $primary-color;
+    border-radius: 8px;
+
+	background-color: $text-color;
+	color: $primary-color;
+	font-size: var(--step-0);
+
+	svg {
+		width: 20px;
+		height: 20px;
+	}
+
+	input {
+		width: 90%;
+		height: 80%;
+
+		margin-left: 10px;
+
+		border: none;
+		border-radius: 5px;
+
+		background-color: $text-color;
+
+		color: $primary-color;
+
+		outline: none;
+
+		&::placeholder {
+			color: $primary-color;
+		}
+	}
+}
+
+.global {
+	display: flex;
+
+	justify-content: space-between;
+
+	border: none;
+
+	width: 90%;
+	height: 50px;
+
+	.searchButton {
+		width: 50px;
+		min-width: 50px;
+		color: white;
+
+		background-color: $primary-color;
+
+		&:hover {
+			background-color: #5e7bb5
+		}
+	}
+	
+	.searchBar {
+		width: 90%;
+		margin-right: 10px;
+	
+		display: flex;
+		justify-content: left;
+		align-items: center;
+	
+		padding-left: 10px;
+	
+		border: 5px solid $primary-color;
+	
+		background-color: $text-color;
+		color: $primary-color;
+		font-size: var(--step-0);
+
+		svg {
+			width: 20px;
+			height: 20px;
+		}
+	
+		input {
+			width: 90%;
+			height: 80%;
+	
+			margin-left: 10px;
+	
+			border: none;
+			border-radius: 5px;
+	
+			background-color: $text-color;
+	
+			color: $primary-color;
+	
+			outline: none;
+	
+			&::placeholder {
+				color: $primary-color;
+			}
+		}
+	}
+}
+
+@media screen and (max-width: 520px) {
+	.global {
+		.searchButton {
+			display: flex;
+			justify-content: center;
+			align-items: center;
+
+			width: 35px;
+			min-width: 35px;
+
+			svg {
+				width: 10px;
+				height: 10px;
+			}
+		}
+	}
+}
+

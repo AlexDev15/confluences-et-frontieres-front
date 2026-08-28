@@ -1,0 +1,99 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import "@fortawesome/fontawesome-svg-core/styles.css";
+
+:root {
+	--text-color: #ffff;
+
+	--text-font-space: 1.5px;
+
+	--primary-color: #1f559c;
+    --primary-color-bg: rgba(31, 85, 156, 0.1);
+
+    --primary-red-color: #B12316;
+    --primary-red-color-bg: rgba(177, 35, 22, 0.1);
+
+	--background-color: #ffffff;
+
+	--phone-width: 480px;
+	--tablet-width: 728px;
+	--desktop-width: 1024px;
+
+	--step--2: clamp(0.36rem, 0.3137rem + 0.2313vi, 0.6rem);
+	--step--1: clamp(0.45rem, 0.3922rem + 0.2892vi, 0.75rem);
+	--step-0: clamp(0.5625rem, 0.4902rem + 0.3614vi, 0.9375rem);
+	--step-1: clamp(0.7031rem, 0.6128rem + 0.4518vi, 1.1719rem);
+	--step-2: clamp(0.8789rem, 0.766rem + 0.5648vi, 1.4648rem);
+	--step-3: clamp(1.0986rem, 0.9574rem + 0.7059vi, 1.8311rem);
+	--step-4: clamp(1.3733rem, 1.1968rem + 0.8824vi, 2.2888rem);
+	--step-5: clamp(1.7166rem, 1.496rem + 1.103vi, 2.861rem);
+	--step-6: clamp(2.1458rem, 1.87rem + 1.3788vi, 3.5763rem);
+
+	--font-shadows: 0px 4px 8px rgba(0, 0, 0, 0.7);
+
+	/* Theme variables */
+	--theme-color: var(--primary-color);
+	--theme-color-bg: var(--primary-color-bg);
+
+	/* Theme transition duration */
+	--theme-transition-duration: 0.3s;
+
+	/* For Calendar */
+
+	--fc-border-color: var(--theme-color);
+}
+
+/* Theme: Evenements (default) */
+:root[data-theme="evenements"] {
+	--theme-color: var(--primary-color);
+	--theme-color-bg: var(--primary-color-bg);
+}
+
+/* Theme: Productions */
+:root[data-theme="productions"] {
+	--theme-color: var(--primary-red-color);
+	--theme-color-bg: var(--primary-red-color-bg);
+}
+
+* {
+	box-sizing: border-box;
+	letter-spacing: var(--text-font-space);
+}
+
+body {
+	color: black;
+	font-family: var(--font-roboto-mono);
+	background-color: var(--background-color);
+	overflow-x: hidden;
+}
+
+/* Theme transitions - Applies smooth color transitions when theme changes */
+*,
+*::before,
+*::after {
+	transition-property: color, background-color, border-color, fill, stroke, box-shadow;
+	transition-duration: var(--theme-transition-duration);
+	transition-timing-function: ease-in-out;
+}
+
+/* Preserve existing transitions for elements that have custom transition properties */
+*[style*="transition"],
+*[class*="transition"] {
+	transition-property: all;
+}
+
+/* body::-webkit-scrollbar {
+	width: 18px;
+
+	border: 4px solid var(--theme-color);
+
+	background-color: var(--theme-color);
+}
+
+body::-webkit-scrollbar-thumb {
+	background-color: white;
+	border-left: 4px solid var(--theme-color);
+	border-right: 4px solid var(--theme-color);
+} */

@@ -1,0 +1,23 @@
+@use "../../../../variables" as *;
+
+.mapInformations {
+	width: 25%;
+	min-width: 450px;
+    height: 80%;
+
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+
+    border-radius: 8px;
+    border: 3px solid $primary-color;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    gap: 12px;
+}
+
+@media screen and (max-width: 520px) {
+	.mapInformations {
+		display: none;
+	}
+}

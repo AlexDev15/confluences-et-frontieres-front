@@ -1,5 +1,0 @@
-User-agent: *
-Allow: /
-Disallow: */events/past
-Disallow: */events/coming
-Disallow: */infos/*

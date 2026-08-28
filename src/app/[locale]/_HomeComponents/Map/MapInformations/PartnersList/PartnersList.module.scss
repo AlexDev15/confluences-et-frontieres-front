@@ -1,0 +1,112 @@
+@use "../../../../../variables" as *;
+
+.partnersList {
+	width: 90%;
+
+    flex-grow: 1;
+
+	position: relative;
+
+	display: flex;
+	flex-direction: column;
+	justify-content: start;
+	align-items: center;
+
+	overflow: auto;
+	overflow-x: hidden;
+
+    padding-right: 4px;
+
+	background-color: $text-color;
+	color: $primary-color;
+
+    gap: 8px;
+
+	.noPartners {
+		width: 100%;
+		height: 100%;
+
+		display: flex;
+		justify-content: center;
+		align-items: center;
+
+		font-size: var(--step-1);
+		font-weight: bold;
+	}
+
+	.partner {
+		width: 100%;
+		min-height: 130px;
+        height: 130px;
+
+		border: 3px solid $primary-color;
+        border-radius: 8px;
+
+		padding: 10px;
+
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+
+		transition: background-color 0.3s, color 0.3s;
+
+		&:hover {
+			background-color: $primary-color;
+			color: $text-color;
+			cursor: pointer;
+
+			transition: background-color 0.3s, color 0.3s;
+		}
+
+		.partnerInformation {
+			width: 100%;
+			height: 100%;
+
+			flex-grow: 1;
+
+			display: flex;
+			justify-content: space-between;
+
+			padding-right: 10px;
+
+			.description {
+				width: 100%;
+				height: 100%;
+
+				h4 {
+					font-size: var(--step-0);
+					font-weight: bold;
+				}
+
+				p {
+					width: 125px;
+					font-size: var(--step--1);
+
+					overflow: hidden;
+					text-overflow: ellipsis;
+					white-space: nowrap;
+				}
+			}
+
+			.logo {
+				width: 40px;
+				height: 30px;
+			}
+		}
+
+		.image {
+			width: 40%;
+			height: 100%;
+		}
+	}
+}
+
+.partnersList::-webkit-scrollbar {
+	width: 6px;
+}
+
+.partnersList::-webkit-scrollbar-thumb {
+	background-color: $primary-color;
+	border-left: 4px solid $primary-color;
+    border-radius: 8px;
+}

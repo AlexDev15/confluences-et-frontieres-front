@@ -1,0 +1,72 @@
+@use "../../../../variables" as *;
+
+.secondColor {
+	color: $primary-color;
+}
+
+.container {
+	margin-top: 70px;
+}
+
+.nextEvents {
+	width: 100%;
+    background-color: $primary-color-bg;
+
+    padding: 50px 5% 50px 5%;
+
+
+	.subtitle {
+		width: 100%;
+		margin-bottom: 30px;
+
+		display: flex;
+		justify-content: center;
+		text-align: center;
+
+		h2 {
+			font-size: calc(var(--step-5) + 12px);
+			font-weight: bold;
+		}
+	}
+
+	.noEvents {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		text-decoration: underline;
+
+		font-size: var(--step-3);
+		text-decoration: un;
+		font-weight: bold;
+	}
+
+	.nextEventsBtn {
+		width: 100%;
+
+		display: flex;
+
+		justify-content: flex-end;
+	}
+}
+
+@media screen and (max-width: 520px) {
+	.container {
+		margin-top: 0px;
+		padding-bottom: 50px;
+	}
+
+	.nextEvents {
+		.subtitle {
+			margin-bottom: 10px;
+
+			h2 {
+				font-size: calc(var(--step-5));
+			}
+		}
+
+		.noEvents {
+			font-size: var(--step-2);
+			margin-bottom: 10px;
+		}
+	}
+}

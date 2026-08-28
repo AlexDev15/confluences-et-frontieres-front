@@ -1,0 +1,19 @@
+@use "../../../app/variables" as *;
+
+.languageSelector-container {
+	.react-select__control {
+		width: 240px;
+	}
+}
+
+.languageOption {
+	display: flex;
+
+	align-items: center;
+
+	.flag {
+		width: 25px;
+		height: 25px;
+		margin-right: 10px;
+	}
+}
